@@ -1,0 +1,1110 @@
+.collages {
+    width: 100%;
+    height: 100%;
+}
+
+.collages .empty-collages {
+    width: 100%;
+    height: 100%;
+    /* display: none; */
+}
+
+.collages .empty-collages .new-collage {
+    width: 100%;
+    text-align: right;
+}
+
+.collages .empty-collages .new-collage a {
+    height: 38px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #7D7098;
+    text-decoration: none;
+    padding: 9px 18px 9px 16px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.collages .empty-collages .empty-state {
+    width: 100%;
+    margin-top: 71px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collages .empty-collages .empty-state img {
+    width: 532px;
+    height: 336px;
+}
+
+.collages .empty-collages .empty-state p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0B0D0F;
+}
+
+.collages .search {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.collages .search .input-group {
+    width: 618px;
+    height: 38px;
+    border: 1px solid #E2E6EA;
+    background-color: #FFFFFF;
+    padding-left: 6px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.collages .search .input-group label {
+    width: 17px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+}
+
+.collages .search .input-group input {
+    width: calc(100% - 40px);
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.collages .search .input-group input::placeholder {
+    font-size: 13px;
+    font-weight: 500;
+    color: #C6CDD6;
+}
+
+.collages .search a {
+    height: 38px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #7D7098;
+    text-decoration: none;
+    padding: 9px 18px 9px 16px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.collages .my-collages,
+.collages .other-collages {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 48px;
+}
+
+.collages .my-collages .title,
+.collages .other-collages .title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.collages .my-collages .title h2,
+.collages .other-collages .title h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #161A1E;
+}
+
+.collages .my-collages .title select,
+.collages .other-collages .title select {
+    width: 160px;
+    height: 38px;
+    border: 2px solid #E2E6EA;
+    font-size: 13px;
+    color: #C6CDD6;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.collages .my-collages .title select option,
+.collages .other-collages .title select option {
+    width: 160px;
+    height: 38px;
+    font-size: 13px;
+    color: #C6CDD6;
+}
+
+.collages .my-collages .items-box,
+.collages .other-collages .items-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.collages .my-collages .items-box .item,
+.collages .other-collages .items-box .item {
+    width: 350px;
+    height: 250px;
+    padding: 4px;
+    margin-right: 20px;
+    /* margin-right: 15px; */
+    margin-bottom: 23px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.collages .my-collages .items-box .item .item-img,
+.collages .other-collages .items-box .item .item-img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    margin-bottom: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.collages .my-collages .items-box .item .data,
+.collages .other-collages .items-box .item .data {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.collages .my-collages .items-box .item .data h4,
+.collages .other-collages .items-box .item .data h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #202020;
+    margin-bottom: 8px;
+}
+
+.collages .my-collages .items-box .item .data p.collage-type,
+.collages .other-collages .items-box .item .data p.collage-type {
+    font-size: 13px;
+    font-weight: 400;
+    color: #363636;
+    margin-bottom: 14px;
+}
+
+.collages .my-collages .items-box .item .data .maker,
+.collages .other-collages .items-box .item .data .maker {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collages .my-collages .items-box .item .data .maker span,
+.collages .other-collages .items-box .item .data .maker span {
+    font-size: 13px;
+    font-weight: 400;
+    color: #909090;
+}
+
+.collages .my-collages .items-box .item.in-progress,
+.collages .other-collages .items-box .item.in-progress {
+    position: relative;
+}
+
+.collages .my-collages .items-box .item.in-progress::before,
+.collages .other-collages .items-box .item.in-progress::before {
+    content: "WORK \A IN PROGRESS";
+    white-space: pre-wrap;
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    text-align: center;
+    padding-top: 37px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #645A7A;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.collages .my-collages .items-box .item.in-progress .item-img,
+.collages .other-collages .items-box .item.in-progress .item-img {
+    opacity: 0.2;
+    cursor: auto;
+}
+
+/* Start Deopdown */
+.collages .my-collages .items-box .item .tools,
+.collages .other-collages .items-box .item .tools {
+    display: block;
+    position: relative;
+}
+
+.collages .my-collages .items-box .item .tools .maker,
+.collages .other-collages .items-box .item .tools .maker {
+    font-size: 14px;
+    color: #909090;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collages .my-collages .items-box .item .tools .maker img,
+.collages .other-collages .items-box .item .tools .maker img {
+    cursor: pointer;
+}
+
+.collages .my-collages .items-box .item .tools .dropdown,
+.collages .other-collages .items-box .item .tools .dropdown {
+    width: 132px;
+    max-height: 104px;
+    display: none;
+    padding: 12px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 17px;
+    right: 0;
+    z-index: 999;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.collages .my-collages .items-box .item .tools .dropdown button,
+.collages .other-collages .items-box .item .tools .dropdown button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: #7D7098;
+    border: none;
+    border-bottom: 1px solid #E2E6EA;
+    outline: none;
+    background: none;
+}
+
+.collages .my-collages .items-box .item .tools .dropdown button:first-of-type,
+.collages .other-collages .items-box .item .tools .dropdown button:first-of-type {
+    padding-top: 0;
+}
+
+.collages .my-collages .items-box .item .tools .dropdown button:last-of-type,
+.collages .other-collages .items-box .item .tools .dropdown button:last-of-type {
+    border-bottom: none;
+}
+
+.collages .my-collages .items-box .item .tools .dropdown button.danger-btn,
+.collages .other-collages .items-box .item .tools .dropdown button.danger-btn {
+    color: #DC3545;
+}
+
+.collages .my-collages .items-box .item .tools .dropdown button img,
+.collages .other-collages .items-box .item .tools .dropdown button img {
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+/* End Deopdown */
+
+.collages .model-container#removeCollageConfirm {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(54, 54, 54, 25%);
+}
+
+.collages .model-container#removeCollageConfirm .model-box {
+    width: 482px;
+    height: 219px;
+    padding: 32px 56px 24px 56px;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.collages .model-container#removeCollageConfirm .model-box .model-title {
+    margin-bottom: 48px;
+}
+
+.collages .model-container#removeCollageConfirm .model-box p {
+    margin-bottom: 32px;
+}
+
+.collages .model-container#removeCollageConfirm .model-box .btn-group .btn-sm-dark {
+    background-color: #DC3545;
+}
+
+/*////////////////////////////////////////////////////////////*/
+
+.create-collage {
+    width: 100%;
+    height: 100%;
+}
+
+.create-collage .create-collage-box {
+    width: calc(100% - 300px);
+    height: 100%;
+    /* overflow-y: auto; */
+}
+
+/* .create-collage .create-collage-box::-webkit-scrollbar {
+    width: 0;
+    border: 0;
+    display: none;
+} */
+
+.create-collage .create-collage-box .back-link {
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 500;
+    color: #7D7098;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.create-collage .create-collage-box .back-link img {
+    margin-right: 10px;
+}
+
+.create-collage .create-collage-box .collage-steps {
+    display: block;
+    margin-bottom: 48px;
+}
+
+.create-collage .create-collage-box .collage-steps p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #161A1E;
+    margin-bottom: 8px;
+}
+
+.create-collage .create-collage-box .collage-steps p span {
+    color: #7D7098;
+}
+
+.create-collage .create-collage-box .collage-steps .range {
+    width: 370px;
+    height: 8px;
+    background-color: #F1F3F5;
+    position: relative;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.create-collage .create-collage-box .collage-steps .range span {
+    height: 100%;
+    background-color: #978DAD;
+    position: absolute;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.create-collage#step2 {
+    display: none;
+}
+
+.create-collage .create-collage-box .first-step {
+    width: 100%;
+}
+
+.create-collage .create-collage-box .first-step form {
+    margin-bottom: 48px;
+}
+
+.create-collage .create-collage-box .first-step .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.create-collage .create-collage-box .first-step .input-group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #909090;
+    margin-bottom: 8px;
+}
+
+.create-collage .create-collage-box .first-step .input-group label span {
+    color: crimson;
+}
+
+.create-collage .create-collage-box .first-step .input-group input {
+    width: 370px;
+    height: 38px;
+    padding: 0 10px;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.create-collage .create-collage-box .first-step .collage-type {
+    width: 100%;
+}
+
+.create-collage .create-collage-box .first-step .collage-type h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #161A1E;
+    margin-bottom: 8px;
+}
+
+.create-collage .create-collage-box .first-step .collage-type p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #909090;
+    margin-bottom: 26px;
+}
+
+.create-collage .create-collage-box .first-step .collage-type p span {
+    color: crimson;
+}
+
+.create-collage .create-collage-box .first-step .collage-type button {
+    width: 180px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #636363;
+    background-color: #FFFFFF;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.create-collage .create-collage-box .first-step .collage-type button:disabled {
+    background-color: #C6CDD6;
+    border: none;
+}
+
+.create-collage .create-collage-box .first-step .collage-type button.selected {
+    border: 2px solid #363636;
+}
+
+.create-collage .second-step {
+    width: 100%;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.create-collage .second-step .layout-info {
+    /* width: 400px; */
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-collage .second-step .layout-info .collage-type {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.create-collage .second-step .layout-info .collage-type .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #161A1E;
+    margin-right: 16px;
+}
+
+.create-collage .second-step .layout-info .collage-type .edit-collage {
+    width: 225px;
+    height: 50px;
+    padding: 0 10px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.create-collage .second-step .layout-info .collage-type .edit-collage.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.create-collage .second-step .layout-info .collage-type .edit-collage p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #636363;
+}
+
+.create-collage .second-step .layout-info .collage-type .edit-collage img {
+    width: 15px;
+    height: 15px;
+}
+
+.create-collage .second-step .layout-info .photos-num {
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.create-collage .second-step .layout-info .photos-num span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #909090;
+    margin-right: 41px;
+}
+
+.create-collage .second-step .layout-info .photos-num button {
+    width: 55.5px;
+    height: 46px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    color: #708298;
+    margin-right: 8px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.create-collage .second-step .layout-info .photos-num button.selected {
+    border: 2px solid #978DAD;
+}
+
+.create-collage .second-step .layout-info .photos-num button.disabled {
+    border: 0;
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.create-collage .second-step .layout-info .collage-orientation {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.create-collage .second-step .layout-info .collage-orientation .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #161A1E;
+    margin-right: 16px;
+}
+
+.create-collage .second-step .layout-info .collage-orientation .orientation {
+    width: 154px;
+    height: 50px;
+    padding: 0 10px;
+    background-color: #FFFFFF;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.create-collage .second-step .layout-info .collage-orientation .orientation p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #636363;
+}
+
+.create-collage .second-step .layout-info .collage-orientation .orientation img {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.create-collage .second-step .layout-info .collage-orientation .orientation.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.create-collage .second-step .layout-info .collage-orientation .orientation.disabled img {
+    cursor: not-allowed;
+}
+
+.create-collage .second-step .layout-info .orientations-choice {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.create-collage .second-step .layout-info .orientations-choice button {
+    font-size: 16px;
+    font-weight: 600;
+    color: #708298;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.create-collage .second-step .layout-info .orientations-choice button#portraitOrientation {
+    width: 130px;
+    height: 180px;
+    margin-right: 10px;
+}
+
+.create-collage .second-step .layout-info .orientations-choice button#landscapeOrientation {
+    width: 180px;
+    height: 130px;
+}
+
+.create-collage .second-step .layout-info .print-size {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.create-collage .second-step .layout-info .print-size span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #909090;
+    margin-right: 75px;
+}
+
+.create-collage .second-step .layout-info .print-size .selected-size {
+    width: 154px;
+    height: 50px;
+    padding: 0 10px;
+    background-color: #FFFFFF;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.create-collage .second-step .layout-info .print-size .selected-size p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #636363;
+}
+
+.create-collage .second-step .layout-info .print-size .selected-size img {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+/* .create-collage .second-step .layout-info .print-size .selected-size {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.create-collage .second-step .layout-info .print-size .selected-size img {
+    cursor: not-allowed;
+} */
+
+.create-collage .second-step .layout-info .print-size-choice {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.create-collage .second-step .layout-info .print-size-choice button {
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #708298;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.create-collage .second-step .layout-info .print-size-choice.portrait button {
+    width: 130px;
+    height: 180px;
+}
+
+.create-collage .second-step .layout-info .print-size-choice.landscape button {
+    width: 180px;
+    height: 130px;
+}
+
+.create-collage .second-step .layout-info .print-size-choice button:disabled {
+    color: #708298;
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.create-collage .second-step .layout-info .btn-group {
+    margin-top: 88px;
+}
+
+.create-collage .second-step .layout-info .btn-group button {
+    width: 128px;
+    height: 42px;
+    background-color: #7D7098;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.create-collage .second-step .layout-shap h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #161A1E;
+    margin-bottom: 11px;
+}
+
+.create-collage .second-step .layout-shap img.portrait-layout {
+    width: 151px;
+    height: 210px;
+}
+
+.create-collage .second-step .layout-shap img.landscape-layout {
+    width: 210px;
+    height: 151px;
+}
+
+.create-collage#step3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/* .create-collage#step1,
+.create-collage#step2 {
+    display: none;
+} */
+
+.create-collage#step3 {
+    display: none;
+}
+
+.create-collage#step3 .media .files .item {
+    width: 89px;
+    height: 89px;
+    margin-right: 9px;
+    margin-bottom: 9px;
+}
+
+.create-collage#step3 .media .files .item:hover:before {
+    content: "";
+    background: none;
+}
+
+.create-collage#step3 .media .files .item:hover {
+    cursor: move;
+}
+
+.create-collage#step3 .media-filter form .select-inputs select {
+    width: 135px !important;
+}
+
+.create-collage .create-collage-box.step3 {
+    width: calc(100% - 487px);
+}
+
+.create-collage .create-collage-box.step3 .media-filter {
+    width: 422px;
+    margin-bottom: 24px;
+}
+
+.create-collage .create-collage-box.step3 .media-filter form .search input {
+    width: 389px;
+}
+
+.create-collage .create-collage-box.step3 .media {
+    width: 638px;
+    height: 413px;
+}
+
+.create-collage .create-collage-box.step3 .media .files {
+    width: 100%;
+    height: 325px;
+}
+
+.create-collage .create-collage-box.step3 .media .files .item {
+    width: 89px;
+    height: 89px;
+}
+
+.create-collage .preview-collage {
+    width: 487px;
+    height: 100%;
+    background-color: #FFFFFF;
+    padding: 25px;
+}
+
+.create-collage .preview-collage .preview-collage-box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.create-collage .preview-collage .preview-collage-box h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #161A1E;
+    margin-bottom: 8px;
+}
+
+.create-collage .preview-collage .preview-collage-box p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #909090;
+}
+
+.create-collage .preview-collage .preview-collage-box .btn-group {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.create-collage .preview-collage .preview-collage-box .btn-group button {
+    width: 135px;
+    height: 42px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    color: #363636;
+    margin-right: 16px;
+    border: 1px solid #7D7098;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.create-collage .preview-collage .preview-collage-box .btn-group button.submit {
+    border: none;
+    background-color: #7D7098;
+    color: #FFFFFF;
+    margin-right: 0;
+}
+
+.create-collage .preview-collage .preview-collage-box .btn-group button#loadingBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-collage .preview-collage .preview-collage-box .btn-group button#loadingBtn:disabled {
+    background-color: #E2E6EA;
+    color: #8D9BAD;
+    cursor: wait;
+}
+
+.create-collage .preview-collage .preview-collage-box .btn-group button#loadingBtn img {
+    display: none;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.create-collage .preview-collage .preview-collage-box .btn-group button#loadingBtn:disabled img {
+    display: inline-block;
+}
+
+.create-collage#step3 .model-container#collageSuccessModel {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(54, 54, 54, 25%);
+}
+
+.create-collage#step3 .model-container#collageSuccessModel .model-box {
+    width: 385px;
+    height: 255px;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.create-collage#step3 .model-container#collageSuccessModel .model-box img {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 8px;
+}
+
+.create-collage#step3 .model-container#collageSuccessModel .model-box .model-title {
+    margin-bottom: 32px;
+}
+
+.create-collage#step3 .model-container#collageSuccessModel .model-box p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #636363;
+    margin-bottom: 32px;
+}
+
+
+.create-collage#step3 .model-container#saveNewCollageError {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(54, 54, 54, 25%);
+}
+
+.create-collage#step3 .model-container#saveNewCollageError .model-box {
+    width: 482px;
+    height: 244px;
+    padding: 32px 56px 24px 56px;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.create-collage#step3 .model-container#saveNewCollageError .model-box .model-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #DC3545;
+    margin-bottom: 48px;
+}
+
+.create-collage#step3 .model-container#saveNewCollageError .model-box p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #636363;
+    margin-bottom: 32px;
+}
+
+.preview-media #mediaNotify .model-box button {
+    height: 38px;
+}
+
+.create-collage .model-container#cancelCollageModel {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(54, 54, 54, 25%);
+}
+
+.create-collage .model-container#cancelCollageModel .model-box {
+    width: 482px;
+    height: 219px;
+    padding: 32px 56px 24px 56px;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.create-collage .model-container#cancelCollageModel .model-box {
+    height: 269px;
+}
+
+.create-collage .model-container#cancelCollageModel .model-box .model-title {
+    margin-bottom: 48px;
+}
+
+.create-collage .model-container#cancelCollageModel .model-box p {
+    text-align: center;
+    margin-bottom: 32px;
+}

@@ -1,0 +1,121 @@
+.contact-support {
+    width: 100%;
+}
+
+.contact-support .page-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #636363;
+    margin-bottom: 40px;
+}
+
+.contact-support form {
+    width: 553px;
+    padding: 24px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.contact-support form .input-group {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.contact-support form .input-group:last-of-type {
+    margin-bottom: 24px;
+}
+
+.contact-support form .input-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #909090;
+    margin-bottom: 8px;
+}
+
+.contact-support form .input-group label span {
+    color: #DC3545;
+}
+
+.contact-support form .input-group input,
+.contact-support form .input-group select {
+    width: 100%;
+    height: 38px;
+    padding: 0 8px;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.contact-support form .input-group select option:first-child {
+    font-size: 13px;
+    font-weight: 500;
+    color: #C6CDD6;
+}
+
+.contact-support form .input-group textarea {
+    width: 100%;
+    height: 118px;
+    padding: 8px;
+    resize: none;
+    border: 1px solid #E2E6EA;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.contact-support form .btn-group {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-support form .btn-group button {
+    width: 128px;
+    height: 38px;
+    background-color: #7D7098;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FCFCFC;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.contact-support form .btn-group button#loadingBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-support form .btn-group button#loadingBtn:disabled {
+    background-color: #E2E6EA;
+    color: #8D9BAD;
+    cursor: wait;
+}
+
+.contact-support form .btn-group button#loadingBtn img {
+    display: none;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.contact-support form .btn-group button#loadingBtn:disabled img {
+    display: inline-block;
+}

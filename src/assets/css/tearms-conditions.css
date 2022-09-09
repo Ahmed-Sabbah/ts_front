@@ -1,0 +1,78 @@
+.tearms-conditions {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F9FAFB;
+    background-image: url('../images/auth/auth-galley.svg');
+    background-repeat: no-repeat;
+    background-size: unset;
+    background-position: top -58px right -70px;
+    padding-top: 32px;
+    padding-bottom: 50px;
+    padding-left: 135px;
+    padding-right: 165px;
+}
+
+.tearms-conditions::-webkit-scrollbar {
+    width: 3px;
+    height: 150px;
+}
+
+.tearms-conditions::-webkit-scrollbar-thumb {
+    background-color: #7D7098;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.tearms-conditions .logo {
+    margin-bottom: 32px;
+}
+
+.tearms-conditions .back-link {
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 500;
+    color: #7D7098;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.tearms-conditions .back-link img {
+    margin-right: 10px;
+}
+
+.tearms-conditions article {
+    width: 100%;
+    height: 486px;
+    background-color: #FFFFFF;
+    padding: 24px;
+    overflow-y: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.tearms-conditions article::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+
+.tearms-conditions article h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0B0D0F;
+    margin-bottom: 32px;
+}
+
+.tearms-conditions article p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #363636;
+}

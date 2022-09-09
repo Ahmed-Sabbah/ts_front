@@ -1,0 +1,278 @@
+aside {
+    width: 265px;
+    height: 100%;
+    background-color: #FFFFFF;
+    float: left;
+    overflow: hidden;
+}
+
+aside .logo {
+    width: 100%;
+    height: 82px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+aside .logo a {
+    text-decoration: none;
+}
+
+aside .side-menu {
+    width: 100%;
+    height: calc(100% - 82px);
+}
+
+aside .side-menu h4 {
+    font-size: 13px;
+    font-weight: unset;
+    color: #978DAD;
+    padding-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+aside .side-menu a svg {
+    margin-right: 10px;
+}
+
+aside .side-menu a {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #B8C1CC;
+    text-align: left;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+aside .side-menu a svg path {
+    stroke: #b8c1cc;
+}
+
+aside .side-menu .router-link-exact-active::before {
+    content: "";
+    width: 5px;
+    height: 40px;
+    color: #7D7098;
+    background-color: #7D7098;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    position: absolute;
+    left: 0;
+}
+
+aside .side-menu a.router-link-exact-active {
+    color: #7D7098;
+}
+
+aside .side-menu a.router-link-exact-active svg path,
+aside .side-menu a.router-link-exact-active svg circle,
+aside .side-menu a.router-link-exact-active svg g#archive rect,
+aside .side-menu a.router-link-exact-active svg line {
+    stroke: #7D7098;
+}
+
+aside .side-menu .bottom-links {
+    position: absolute;
+    bottom: 10px;
+}
+
+aside .side-menu .bottom-links .contact-support {
+    color: #7D7098;
+}
+
+.dashboard-container .accounts-container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(48, 48, 48, 0.4);
+    position: fixed;
+    top: 0;
+    left: 100vw;
+    z-index: 999;
+    display: none;
+}
+
+.dashboard-container .manage-accounts-menu {
+    width: 360px;
+    height: 100vh;
+    padding: 40px 25px;
+    background-color: #FFFFFF;
+    float: right;
+    position: relative;
+}
+
+.dashboard-container .manage-accounts-menu .close-btn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.dashboard-container .manage-accounts-menu .user-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.dashboard-container .manage-accounts-menu .user-info .user-img {
+    width: 80px;
+    height: 80px;
+    background-color: #708298;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.dashboard-container .manage-accounts-menu .user-info .user-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.dashboard-container .manage-accounts-menu .user-info a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #202020;
+    line-height: 18px;
+    margin-bottom: 4px;
+}
+
+.dashboard-container .manage-accounts-menu .user-info p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #636363;
+}
+
+.dashboard-container .manage-accounts-menu .user-acounts {
+    width: 100%;
+}
+
+.dashboard-container .manage-accounts-menu .user-acounts .title {
+    font-size: 13px;
+    font-weight: 500;
+    color: #7D7098;
+    margin-bottom: 24px;
+}
+
+.dashboard-container .manage-accounts-menu .accounts {
+    width: 100%;
+    height: 260px;
+    overflow-y: auto;
+}
+
+.dashboard-container .manage-accounts-menu .accounts::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+
+.dashboard-container .manage-accounts-menu .accounts .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.dashboard-container .manage-accounts-menu .accounts .item .user {
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-container .manage-accounts-menu .accounts .item .user img {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.dashboard-container .manage-accounts-menu .accounts .item .user .name-title h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #202020;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.dashboard-container .manage-accounts-menu .accounts .item .user .name-title span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #636363;
+}
+
+.dashboard-container .manage-accounts-menu .accounts .item .family p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #636363;
+}
+
+.dashboard-container .manage-accounts-menu .contributor {
+    width: 100%;
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    padding: 0 25px;
+    text-align: center;
+}
+
+.dashboard-container .manage-accounts-menu .contributor button.become-gatekeeper {
+    width: 100%;
+    height: 38px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #363636;
+    margin-bottom: 3px;
+    background-color: #FFFFFF;
+    border: 1px solid #7D7098;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.dashboard-container .manage-accounts-menu .contributor p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #636363;
+}
+
+.dashboard-container .manage-accounts-menu .contributor button#loadingBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-container .manage-accounts-menu .contributor button#loadingBtn:disabled {
+    background-color: #E2E6EA;
+    color: #8D9BAD;
+    cursor: wait;
+}
+
+.dashboard-container .manage-accounts-menu .contributor button#loadingBtn img {
+    display: none;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.dashboard-container .manage-accounts-menu .contributor button#loadingBtn:disabled img {
+    display: inline-block;
+}

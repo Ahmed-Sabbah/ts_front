@@ -1,0 +1,1041 @@
+@font-face {
+    font-family: 'SmithAllison';
+    /* src: url(../fonts/SmithAllison.woff); */
+    src: url("../fonts/SmithAllison.eot");
+    src: url("../fonts/SmithAllison.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+.visit-memorial {
+    max-width: 480px;
+}
+
+.visit-memorial .get-started {
+    width: 100%;
+    height: 100vh;
+}
+
+.visit-memorial .get-started .memorial-cover {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.visit-memorial .get-started .memorial-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.visit-memorial .get-started .memorial-cover .memorial-info {
+    width: 100%;
+    height: 238px;
+    background-color: rgba(32, 32, 32, 80%);
+    padding-top: 9px;
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+}
+
+.visit-memorial .get-started .memorial-cover .memorial-info h1 {
+    width: 100%;
+    font-size: 65px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    font-family: 'SmithAllison';
+    overflow: hidden;
+}
+
+.visit-memorial .get-started .memorial-cover .memorial-info p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FCFCFC;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.visit-memorial .get-started .memorial-cover .memorial-info .get-start-btn {
+    width: 327px;
+    height: 50px;
+    background-color: #7D7098;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.visit-memorial .home {
+    max-width: 480px;
+    min-height: 100vh;
+    padding-bottom: 120px;
+    background-color: #F9FAFB;
+    display: none;
+}
+
+.visit-memorial .home .memorial-cover {
+    width: 100%;
+    height: 243px;
+    margin-bottom: 32px;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.visit-memorial .home .memorial-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.visit-memorial .home .memorial-cover .memorial-info {
+    width: 100%;
+    height: 86px;
+    background-color: rgba(32, 32, 32, 80%);
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.visit-memorial .home .memorial-cover .memorial-info h1 {
+    width: 100%;
+    font-size: 44px;
+    font-weight: 400;
+    color: #FCFCFC;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    font-family: 'SmithAllison';
+    overflow: hidden;
+}
+
+.visit-memorial .home .memorial-cover .memorial-info p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FCFCFC;
+    text-align: center;
+}
+
+.visit-memorial .home .about-memorial {
+    width: 100%;
+    padding: 0 24px;
+    margin-bottom: 32px;
+}
+
+.visit-memorial .home .about-memorial h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #161A1E;
+    margin-bottom: 10px;
+}
+
+.visit-memorial .home .about-memorial p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #707070;
+}
+
+.visit-memorial .home .about-memorial p a {
+    color: #7D7098;
+}
+
+.visit-memorial .home .memorial-thoughts,
+.visit-memorial .home .memorial-gallery {
+    width: 100%;
+    padding: 0 24px;
+    margin-bottom: 32px;
+}
+
+.visit-memorial .home .memorial-thoughts .head,
+.visit-memorial .home .memorial-gallery .head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.visit-memorial .home .memorial-thoughts .head h4,
+.visit-memorial .home .memorial-gallery .head h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #161A1E;
+    margin-bottom: 10px;
+}
+
+.visit-memorial .home .memorial-thoughts .head a,
+.visit-memorial .home .memorial-gallery .head a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #7D7098;
+}
+
+.visit-memorial .home .memorial-thoughts .thoughts-items,
+.visit-memorial .home .memorial-gallery .gallery-items {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.visit-memorial .home .memorial-thoughts .thoughts-items::-webkit-scrollbar,
+.visit-memorial .home .memorial-gallery .gallery-items::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+
+.visit-memorial .home .memorial-thoughts .thoughts-items .thought {
+    min-width: 250px;
+    max-width: 250px;
+    height: 131px;
+    padding: 10px;
+    margin-right: 16px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.visit-memorial .home .memorial-thoughts .thoughts-items .thought h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #363636;
+    margin-bottom: 4px;
+}
+
+.visit-memorial .home .memorial-thoughts .thoughts-items .thought span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #909090;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.visit-memorial .home .memorial-thoughts .thoughts-items .thought p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #636363;
+}
+
+.visit-memorial .home .memorial-gallery .gallery-items .item {
+    min-width: 130px;
+    max-width: 130px;
+    height: 85px;
+    margin-right: 16px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.visit-memorial .home .memorial-gallery .gallery-items .item img,
+.visit-memorial .home .memorial-gallery .gallery-items .item video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.visit-memorial .home .memorial-gallery .gallery-items .item.VIDEO {
+    position: relative;
+}
+
+.visit-memorial .home .memorial-gallery .gallery-items .item.AUDIO img,
+.visit-memorial .home .memorial-gallery .gallery-items .item.DOCUMENT img {
+    object-fit: contain;
+}
+
+.visit-memorial .home .memorial-gallery .gallery-items .item.VIDEO::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/dashboard/media/video-player.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: unset;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.visit-memorial .home .log-visit-btn {
+    width: 100%;
+    max-width: 480px;
+    height: 90px;
+    background-color: #F9FAFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    padding: 0 24px;
+}
+
+.visit-memorial .home .log-visit-btn button {
+    width: 100%;
+    height: 50px;
+    background-color: #7D7098;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.about-pop-up {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(32, 32, 32, 80%);
+    position: fixed;
+    top: 100vh;
+    left: 0;
+    z-index: 99;
+    display: none;
+}
+
+.about-pop-up .pop-up-model {
+    width: 100%;
+    height: 479px;
+    padding: 24px;
+    position: absolute;
+    bottom: 0;
+    background-color: #F9FAFB;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.about-pop-up .pop-up-model h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #202020;
+    margin-bottom: 10px;
+}
+
+.about-pop-up .pop-up-model .description {
+    width: 100%;
+    height: 326px;
+    overflow-y: auto;
+}
+
+.about-pop-up .pop-up-model .description::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+
+.about-pop-up .pop-up-model .description p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #636363;
+}
+
+.about-pop-up .pop-up-model .close-btn {
+    width: 100%;
+    padding: 0 24px;
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.about-pop-up .pop-up-model .close-btn button {
+    width: 100%;
+    height: 50px;
+    background-color: #7D7098;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.visit-memorial .all-thoughts,
+.visit-memorial .show-gallery {
+    max-width: 480px;
+    min-height: 100vh;
+    padding: 24px;
+    padding-bottom: 120px;
+    background-color: #F9FAFB;
+    display: none;
+}
+
+.visit-memorial .all-thoughts .head,
+.visit-memorial .show-gallery .head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.visit-memorial .all-thoughts .head .title,
+.visit-memorial .show-gallery .head .title {
+    display: flex;
+    align-items: center;
+}
+
+.visit-memorial .all-thoughts .head .title .back-link,
+.visit-memorial .show-gallery .head .title .back-link {
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.visit-memorial .all-thoughts .head .title h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0B0D0F;
+}
+
+.visit-memorial .all-thoughts .head a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #7D7098;
+}
+
+.visit-memorial .all-thoughts .discription-paragraph,
+.visit-memorial .show-gallery .discription-paragraph {
+    font-size: 14px;
+    font-weight: 500;
+    color: #909090;
+    margin-bottom: 40px;
+}
+
+.visit-memorial .all-thoughts .thoughts-items {
+    width: 100%;
+}
+
+.visit-memorial .all-thoughts .thoughts-items .item {
+    width: 100%;
+    min-height: 131px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.visit-memorial .all-thoughts .thoughts-items .item h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #363636;
+    margin-bottom: 4px;
+}
+
+.visit-memorial .all-thoughts .thoughts-items .item span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #909090;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.visit-memorial .all-thoughts .thoughts-items .item p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #636363;
+}
+
+.visit-memorial .show-gallery .media-nav-filter {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.visit-memorial .show-gallery .media-nav-filter::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+
+.visit-memorial .show-gallery .media-nav-filter .media-nav {
+    min-width: 519px;
+    max-width: 519px;
+    height: 42px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    background-color: #ffffff;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+.visit-memorial .show-gallery .media-nav-filter .media-nav li {
+    height: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #b8c1cc;
+    cursor: pointer;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visit-memorial .show-gallery .media-nav-filter .media-nav li.active {
+    background-color: #7d7098;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+.visit-memorial .show-gallery .media-items {
+    width: 100%;
+}
+
+.visit-memorial .show-gallery .media-items .item {
+    width: 100%;
+    height: 120px;
+    position: relative;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.visit-memorial .show-gallery .media-items .item img,
+.visit-memorial .show-gallery .media-items .item video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.visit-memorial .show-gallery .media-items .item.VIDEO img,
+.visit-memorial .show-gallery .media-items .item.VIDEO video {
+    object-fit: cover;
+}
+
+.visit-memorial .show-gallery .media-items .item.DOCUMENT,
+.visit-memorial .show-gallery .media-items .item.AUDIO {
+    background-color: #F9FAFB;
+    border: 1px solid #978DAD;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visit-memorial .show-gallery .media-items .item.DOCUMENT img,
+.visit-memorial .show-gallery .media-items .item.AUDIO img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.visit-memorial .show-gallery .media-items .item.VIDEO {
+    position: relative;
+}
+
+.visit-memorial .show-gallery .media-items .item.VIDEO::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7d70985c;
+    background-image: url('../images/dashboard/media/video-player.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: unset;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.visit-memorial .media-info {
+    width: 100%;
+    display: none;
+}
+
+.visit-memorial .media-info .memorial-cover {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.visit-memorial .media-info .memorial-cover .main-media {
+    width: 100%;
+    height: 243px;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.visit-memorial .media-info .memorial-cover .main-media img,
+.visit-memorial .media-info .memorial-cover .main-media video,
+.visit-memorial .media-info .memorial-cover .main-media audio,
+.visit-memorial .media-info .memorial-cover .main-media object,
+.visit-memorial .media-info .memorial-cover .main-media object iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.visit-memorial .media-info .memorial-cover .back-link {
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    position: absolute;
+    top: 60px;
+    left: 24px;
+    z-index: 9;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.visit-memorial .media-information {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F9FAFB;
+    padding: 0 24px;
+    padding-top: 16px;
+}
+
+.visit-memorial .media-information .information {
+    width: 100%;
+}
+
+.visit-memorial .media-information .all-comments {
+    display: none;
+}
+
+.visit-memorial .media-information .information .head-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #161A1E;
+    margin-bottom: 8px;
+}
+
+.visit-memorial .media-information .information .storage-space {
+    font-size: 14px;
+    font-weight: 400;
+    color: #636363;
+    margin-bottom: 25px;
+}
+
+.visit-memorial .media-information .information .data {
+    width: 100%;
+}
+
+.visit-memorial .media-information .information .data>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px;
+    border-bottom: 1px solid #E2E6EA;
+}
+
+.visit-memorial .media-information .information .data>div span {
+    font-size: 13px;
+    font-weight: 400;
+    color: #909090;
+}
+
+.visit-memorial .media-information .information .data>div p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #636363;
+}
+
+.visit-memorial .media-information .information .data>div.location,
+.visit-memorial .media-information .information .data>div.tags {
+    display: flex;
+    align-items: flex-start;
+}
+
+.visit-memorial .media-information .information .data>div.location a {
+    width: 185px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #636363;
+    text-align: right;
+    word-break: break-all;
+}
+
+.visit-memorial .media-information .information .data>div.tags p {
+    width: 185px;
+    text-align: right;
+}
+
+.visit-memorial .media-information .information .data>div.tags p span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #636363;
+}
+
+.visit-memorial .media-information .information .data>div.comments-items {
+    display: block;
+    border-bottom: none;
+}
+
+.visit-memorial .media-information .information .data>div.comments-items .head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.visit-memorial .media-information .information .data>div.comments-items .head a {
+    font-size: 13px;
+    font-weight: 400;
+    color: #7D7098;
+}
+
+.visit-memorial .media-information .information .data>div.comments-items .comment {
+    width: 100%;
+    min-height: 124px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 8px;
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.visit-memorial .media-information .information .data>div.comments-items .comment p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #636363;
+}
+
+.visit-memorial .media-information .information .data>div.comments-items .comment .created {
+    font-size: 13px;
+    font-weight: 400;
+    color: #645A7A;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding-top: 10px;
+}
+
+.visit-memorial .media-information .all-comments .back-link {
+    display: block;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #7D7098;
+}
+
+.visit-memorial .media-information .all-comments .back-link img {
+    margin-right: 10px;
+}
+
+.visit-memorial .media-information .all-comments .title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #202020;
+    margin-bottom: 10px;
+}
+
+.visit-memorial .media-information .all-comments .comment {
+    width: 100%;
+    min-height: 124px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 8px;
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.visit-memorial .media-information .all-comments .comment p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #636363;
+}
+
+.visit-memorial .media-information .all-comments .comment .created {
+    font-size: 13px;
+    font-weight: 400;
+    color: #645A7A;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding-top: 10px;
+}
+
+.visit-memorial .log-visit {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F9FAFB;
+    padding: 24px;
+    padding-top: 50px;
+    display: none;
+}
+
+.visit-memorial .log-visit .head {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.visit-memorial .log-visit .head .back-link {
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.visit-memorial .log-visit .head h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0B0D0F;
+}
+
+.visit-memorial .log-visit .discription-paragraph {
+    font-size: 14px;
+    font-weight: 500;
+    color: #909090;
+    margin-bottom: 40px;
+}
+
+.visit-memorial .log-visit form {
+    width: 100%;
+}
+
+.visit-memorial .log-visit form .input-group {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.visit-memorial .log-visit form .input-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #909090;
+    margin-bottom: 8px;
+}
+
+.visit-memorial .log-visit form .input-group label span {
+    color: #DC3545;
+}
+
+.visit-memorial .log-visit form .input-group input[type="text"],
+.visit-memorial .log-visit form .input-group input[type="email"] {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.visit-memorial .log-visit form .input-group textarea {
+    width: 100%;
+    height: 110px;
+    padding: 8px;
+    background-color: #FFFFFF;
+    resize: none;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.visit-memorial .log-visit form .submit-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.visit-memorial .log-visit form .submit-btn button,
+.visit-memorial .log-visit-success .back-to-main-btn button {
+    width: 100%;
+    height: 50px;
+    background-color: #7D7098;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.visit-memorial .log-visit-success {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F9FAFB;
+    position: relative;
+    padding-top: 160px;
+    text-align: center;
+    display: none;
+}
+
+.visit-memorial .log-visit-success h2 {
+    margin-bottom: 64px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #0B0D0F;
+}
+
+.visit-memorial .log-visit-success img {
+    width: 280px;
+    height: 322px;
+    margin: 0 auto;
+}
+
+.visit-memorial .log-visit-success .back-to-main-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    padding: 0 24px;
+}
+
+.visit-memorial .log-visit form .submit-btn #loadingBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visit-memorial .log-visit form .submit-btn #loadingBtn:disabled {
+    background-color: #E2E6EA;
+    color: #8D9BAD;
+    cursor: wait;
+}
+
+.visit-memorial .log-visit form .submit-btn #loadingBtn img {
+    display: none;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.visit-memorial .log-visit form .submit-btn #loadingBtn:disabled img {
+    display: inline-block;
+}

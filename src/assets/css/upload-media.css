@@ -1,0 +1,967 @@
+.upload-media {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.upload-media::-webkit-scrollbar {
+    width: 0;
+    border: 0;
+    display: none;
+}
+
+.upload-media .back-link {
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 500;
+    color: #7D7098;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.upload-media .back-link img {
+    margin-right: 10px;
+}
+
+.upload-media .upload-steps {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-media .upload-steps>div {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-media .upload-steps>div::before {
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #eee;
+    position: relative;
+    right: 75px;
+    top: 25px;
+}
+
+.upload-media .upload-steps>div:first-of-type::before {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.upload-media .upload-steps>div .icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8D9BAD;
+    margin-bottom: 16px;
+    border: 1px solid #E2E6EA;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.upload-media .upload-steps>div span {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #8D9BAD;
+}
+
+.upload-media .upload-steps>div.active::before {
+    background-color: #978DAD;
+}
+
+.upload-media .upload-steps>div.active .icon {
+    color: #978DAD;
+    border: 1px solid #978DAD;
+}
+
+.upload-media .upload-steps>div.active span,
+.upload-media .upload-steps>div.done span {
+    color: #5A687A;
+}
+
+.upload-media .upload-steps>div.done .icon {
+    background-color: #7D7098;
+    border: none;
+}
+
+.upload-media .upload-steps>div.done .icon svg path,
+.upload-media .upload-steps>div.done .icon svg line,
+.upload-media .upload-steps>div.done .icon svg circle {
+    stroke: #FFFFFF;
+}
+
+.upload-media .step-box {
+    width: 100%;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.upload-media .step-box>div {
+    margin-bottom: 25px;
+}
+
+/* .upload-media #emptyStatus {
+    display: none;
+} */
+
+.upload-media .step-box .box-1 {
+    width: 70%;
+    /* width: 742px; */
+    height: 464px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.upload-media #emptyStatus .box-1 {
+    /* background-image: url('../images/dashboard/media/upload-border.svg'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: 0%; */
+    border: 1px dashed #E2E6EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: cell;
+}
+
+.upload-media #emptyStatus .box-1::before {
+    content: "Click or drag to upload media";
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #C6CDD6;
+    letter-spacing: 2px;
+}
+
+.upload-media #emptyStatus .box-1.uploaded::before {
+    content: "";
+}
+
+.upload-media #emptyStatus .box-1 .uploaded-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.upload-media #emptyStatus .box-1 {
+    position: relative;
+}
+
+.upload-media #emptyStatus .box-1 .delete-btn {
+    display: none;
+    width: 118px;
+    height: 38px;
+    background-color: #DC3545;
+    color: #FAFAFA;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    z-index: 99;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.upload-media #emptyStatus .box-1 .delete-btn img {
+    margin-right: 10px;
+}
+
+.upload-media #emptyStatus .box-1.uploaded .delete-btn {
+    display: flex;
+}
+
+/*////////////////////////////////////////////////////////////////////////////*/
+.upload-media .step-box .box-2 {
+    width: 28%;
+    display: block;
+    /* width: 358px; */
+}
+
+.upload-media .step-box .box-2 .image:first-child {
+    width: 100%;
+    height: 156px;
+}
+
+.upload-media .step-box .box-2 .image:first-child img,
+.upload-media .step-box .box-2 .image:first-child object,
+.upload-media .step-box .box-2 .image:first-child object iframe,
+.upload-media .step-box .box-2 .image:first-child video,
+.upload-media .step-box .box-2 .image:first-child audio {
+    width: 100%;
+    height: 100%;
+}
+
+.upload-media .step-box .box-2 .image:first-child img {
+    object-fit: cover;
+}
+
+.upload-media .step-box .box-2 .uploaded-media-info {
+    width: 100%;
+    height: 202px;
+    padding: 5px 25px;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E6EA;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.upload-media .step-box .box-2 .uploaded-media-info>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #E2E6EA;
+}
+
+.upload-media .step-box .box-2 .uploaded-media-info>div:last-child {
+    border-bottom: none;
+}
+
+.upload-media .step-box .box-2 .uploaded-media-info>div span {
+    font-size: 13px;
+    color: #909090;
+}
+
+.upload-media .step-box .box-2 .uploaded-media-info>div p {
+    font-size: 14px;
+    color: #636363;
+    text-transform: uppercase;
+}
+
+.upload-media #emptyStatus .box-2 .first-step-btn {
+    width: 100%;
+    height: 42px;
+    margin-top: 16px;
+    background-color: #E2E6EA;
+    color: #8D9BAD;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.upload-media #emptyStatus .box-2 .first-step-btn:enabled {
+    background-color: #7D7098;
+    color: #FFFFFF;
+}
+
+.upload-media #mediaTag {
+    display: none;
+}
+
+.upload-media .next-step .box-1 {
+    height: 432px;
+    padding: 24px;
+}
+
+.upload-media .box-1 h3.box-1-title {
+    font-size: 18px;
+    color: #161A1E;
+    margin-bottom: 8px;
+}
+
+.upload-media .box-1 p.box-1-description {
+    font-size: 14px;
+    color: #636363;
+}
+
+.upload-media .box-1 .tags {
+    min-width: 100%;
+    height: 285px;
+    padding: 16px 0;
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.upload-media .box-1 .tags .input-group {
+    display: inline-block;
+    margin: 0 82px 16px 0 !important;
+}
+
+.upload-media .box-1 .tags .input-group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #363636;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.upload-media .box-1 .tags .input-group label input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.upload-media .box-1 .tags .input-group label p {
+    margin-left: 18px;
+}
+
+.upload-media #mediaTag .box-1,
+.upload-media #familyAndFriends .box-1 {
+    position: relative;
+}
+
+.upload-media #mediaTag .box-1 .scroll-btn-broup,
+.upload-media #familyAndFriends .box-1 .scroll-btn-broup {
+    display: flex;
+    position: absolute;
+    right: 24px;
+    bottom: 10px;
+}
+
+.upload-media #mediaTag .box-1 .scroll-btn-broup button,
+.upload-media #familyAndFriends .box-1 .scroll-btn-broup button {
+    width: fit-content;
+    background-color: transparent;
+    margin-left: 10px;
+    border: none;
+}
+
+.upload-media #mediaTag .box-1 .scroll-btn-broup button:disabled,
+.upload-media #familyAndFriends .box-1 .scroll-btn-broup button:disabled {
+    cursor: not-allowed;
+}
+
+/* Create a custom checkbox */
+.upload-media .box-1 .tags .input-group label .checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 14px;
+    width: 14px;
+    background-color: #fff;
+    border: 1px solid #E2E6EA;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+/* On mouse-over, add a grey background color */
+.upload-media .box-1 .tags .input-group label:hover input~.checkmark {
+    background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.upload-media .box-1 .tags .input-group label input:checked~.checkmark {
+    background-color: #7D7098;
+    border: none;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.upload-media .box-1 .tags .input-group label .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.upload-media .box-1 .tags .input-group label input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.upload-media .box-1 .tags .input-group label .checkmark:after {
+    left: 5px;
+    top: 2px;
+    width: 2px;
+    height: 6px;
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.upload-media .box-1 .tags .new-tag {
+    display: inline-block;
+    margin-top: 9px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.upload-media .box-1 .tags .new-tag-form,
+.upload-media .box-1 .tags .new-member-form {
+    display: none;
+    flex-direction: column;
+}
+
+.upload-media .box-1 .tags .new-tag-form input,
+.upload-media .box-1 .tags .new-member-form input {
+    max-width: 147px;
+    height: 38px;
+    padding: 0 8px;
+    outline: none;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.upload-media .box-1 .tags .new-tag-form .btn-group,
+.upload-media .box-1 .tags .new-member-form .btn-group {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.upload-media .box-1 .tags .new-tag-form .btn-group button,
+.upload-media .box-1 .tags .new-member-form .btn-group button {
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.upload-media .box-1 .tags .new-tag-form .btn-group button.danger,
+.upload-media .box-1 .tags .new-member-form .btn-group button.danger {
+    color: #DC3545;
+    margin-right: 30px;
+}
+
+.upload-media .box-1 .tags .new-tag-form .btn-group button.default,
+.upload-media .box-1 .tags .new-member-form .btn-group button.default {
+    color: #636363;
+}
+
+.upload-media .next-step .box-1 .tags .new-tag span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #C6CDD6;
+    padding: 10px 16px;
+    border: 1px dashed #E2E6EA;
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+}
+
+.upload-media .box-2 .image {
+    width: 100%;
+    height: 156px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.upload-media .box-2 .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.upload-media .box-2 .btn-group {
+    width: 100%;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.upload-media .box-2 .btn-group button {
+    width: 171px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.upload-media .box-2 .btn-group .back-btn {
+    border: 1px solid #7D7098;
+    background-color: #F9FAFB;
+    color: #363636;
+}
+
+.upload-media .box-2 .btn-group .next-btn {
+    border: none;
+    background-color: #E2E6EA;
+    color: #8D9BAD;
+}
+
+.upload-media .box-2 .btn-group .next-btn:enabled {
+    background-color: #7D7098;
+    color: #FFFFFF;
+}
+
+.upload-media .box-2 .btn-group button#loadingBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-media .box-2 .btn-group button#loadingBtn:disabled {
+    background-color: #E2E6EA;
+    color: #8D9BAD;
+    cursor: wait;
+}
+
+.upload-media .box-2 .btn-group button#loadingBtn img {
+    display: none;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.upload-media .box-2 .btn-group button#loadingBtn:disabled img {
+    display: inline-block;
+}
+
+.upload-media #familyAndFriends {
+    display: none;
+}
+
+.upload-media #mediaTime .choose-decade,
+.upload-media #mediaTime .choose-year,
+.upload-media #mediaTime .choose-month,
+.upload-media #mediaTime .choose-day {
+    width: 100%;
+    margin-top: 27px;
+    margin-bottom: 37px;
+}
+
+.upload-media #mediaTime .choose-year,
+.upload-media #mediaTime .choose-month,
+.upload-media #mediaTime .choose-day {
+    display: none;
+}
+
+.upload-media #mediaTime .choose-decade .decade,
+.upload-media #mediaTime .choose-year .year,
+.upload-media #mediaTime .choose-month .month,
+.upload-media #mediaTime .choose-day .day {
+    display: flex;
+    align-items: center;
+}
+
+.upload-media #mediaTime .choose-decade .decade #choosenDecade {
+    display: none;
+}
+
+.upload-media #mediaTime .choose-decade .decade p,
+.upload-media #mediaTime .choose-year .year p,
+.upload-media #mediaTime .choose-month .month p,
+.upload-media #mediaTime .choose-day .day p,
+.upload-media #mediaTime .choose-year p {
+    font-size: 13px;
+    font-weight: 500;
+    color: #645A7A;
+    margin-bottom: 8px;
+}
+
+.upload-media #mediaTime .choose-decade .decade p span,
+.upload-media #mediaTime .choose-year .year p span,
+.upload-media #mediaTime .choose-month .month p span,
+.upload-media #mediaTime .choose-day .day p span {
+    color: #DC3545;
+}
+
+.upload-media #mediaTime .choose-decade .item,
+.upload-media #mediaTime .choose-year .item,
+.upload-media #mediaTime .choose-month .item,
+.upload-media #mediaTime .choose-day .item {
+    width: 80px;
+    height: 26px;
+    margin-left: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #363636;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 3px;
+    cursor: pointer;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.upload-media #mediaTime .choose-year .year .item,
+.upload-media #mediaTime .choose-month .month .item,
+.upload-media #mediaTime .choose-day .day .item {
+    display: none;
+}
+
+.upload-media #mediaTime .choose-decade .items,
+.upload-media #mediaTime .choose-year .items,
+.upload-media #mediaTime .choose-month .items,
+.upload-media #mediaTime .choose-day .items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.upload-media #mediaTime .choose-decade .items span,
+.upload-media #mediaTime .choose-year .items span,
+.upload-media #mediaTime .choose-month .items span,
+.upload-media #mediaTime .choose-day .items span {
+    width: 55px;
+    height: 26px;
+    margin: 0 8px 8px 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #363636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.upload-media #mediaTime .choose-year .items span,
+.upload-media #mediaTime .choose-month .items span,
+.upload-media #mediaTime .choose-day .items span {
+    cursor: pointer;
+}
+
+/* .upload-media #mediaTime .choose-year .items>div {
+    display: none;
+} */
+
+.upload-media #mediaTime .choose-year .items #d1970 {
+    display: flex;
+}
+
+.upload-media #mediaTime .choose-year .items>div span.selected,
+.upload-media #mediaTime .choose-month .items>div span.selected,
+.upload-media #mediaTime .choose-day .items>div span.selected {
+    border: 1px solid #645A7A;
+}
+
+/* .upload-media #mediaTime .choose-decade #decades {
+    display: flex;
+} */
+
+.upload-media #mediaTime {
+    display: none;
+}
+
+.upload-media #mediaLocation .location-form,
+.upload-media #mediaMemory .memory-form {
+    width: 100%;
+    margin-top: 32px;
+}
+
+.upload-media #mediaLocation .location-form form input {
+    width: 370px;
+    height: 38px;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.upload-media #mediaLocation .location-form form input::placeholder {
+    font-size: 13px;
+    font-weight: 500;
+    color: #C6CDD6;
+}
+
+.upload-media #mediaLocation {
+    display: none;
+}
+
+.upload-media #mediaMemory .memory-form form textarea {
+    width: 370px;
+    height: 148px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #363636;
+    padding: 8px;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.upload-media #mediaMemory .memory-form form textarea::-webkit-resizer {
+    display: none;
+}
+
+.upload-media #mediaMemory {
+    display: none;
+}
+
+.upload-media #mediaNotify .box-1 .tags {
+    height: 241px;
+}
+
+.upload-media #mediaNotify .box-1 .media-status {
+    width: 520px;
+    height: 50px;
+    margin-top: 24px;
+    background-color: #F9FAFB;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.upload-media #mediaNotify .box-1 .media-status p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #645A7A;
+}
+
+.upload-media #mediaNotify .box-1 .media-status .form-group {
+    display: flex;
+}
+
+.upload-media #mediaNotify .box-1 .media-status .form-group .input-group:first-child {
+    margin-right: 40px;
+}
+
+.upload-media #mediaNotify .box-1 .media-status .form-group .input-group {
+    display: flex;
+    align-items: center;
+}
+
+.upload-media #mediaNotify .box-1 .media-status .form-group .input-group label {
+    font-weight: 500;
+    color: #363636;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.upload-media #mediaNotify .box-1 .media-status .form-group .input-group label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.upload-media #mediaNotify .box-1 .media-status .form-group .input-group label .checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 14px;
+    width: 14px;
+    background-color: #fff;
+    border: 1px solid #E2E6EA;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.upload-media #mediaNotify .box-1 .media-status .form-group .input-group label:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.upload-media #mediaNotify .box-1 .media-status .form-group .input-group label input:checked~.checkmark {
+    background-color: #7D7098;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.upload-media #mediaNotify .box-1 .media-status .form-group .input-group label .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.upload-media #mediaNotify .box-1 .media-status .form-group .input-group label input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.upload-media #mediaNotify .box-1 .media-status .form-group .input-group label .checkmark:after {
+    top: 3px;
+    left: 3px;
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.upload-media #mediaNotify {
+    display: none;
+}
+
+.upload-media .model-container {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(54, 54, 54, 25%);
+}
+
+.upload-media .model-box {
+    width: 385px;
+    height: 255px;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.upload-media .model-container#noMoreSpace .model-box {
+    width: 482px;
+    height: 269px;
+}
+
+.upload-media .model-container#noMoreSpace .model-box .model-title {
+    color: #DC3545;
+    margin-bottom: 48px;
+}
+
+.upload-media .model-box img {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 8px;
+}
+
+.upload-media .model-box .model-title {
+    margin-bottom: 32px;
+}
+
+.upload-media .model-box p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #636363;
+    margin-bottom: 32px;
+}
+
+.upload-media #mediaNotify .model-box button {
+    height: 38px;
+}
+
+.upload-media .model-container#cancelMediaModel {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(54, 54, 54, 25%);
+}
+
+.upload-media .model-container#cancelMediaModel .model-box {
+    width: 482px;
+    height: 219px;
+    padding: 32px 56px 24px 56px;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.upload-media .model-container#cancelMediaModel .model-box {
+    height: 269px;
+}
+
+.upload-media .model-container#cancelMediaModel .model-box .model-title {
+    margin-bottom: 48px;
+}
+
+.upload-media .model-container#cancelMediaModel .model-box p {
+    text-align: center;
+    margin-bottom: 32px;
+}

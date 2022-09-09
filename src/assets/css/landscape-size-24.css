@@ -1,0 +1,169 @@
+.create-collage .preview-collage .preview-collage-box .landscap-size24 {
+    width: 437px;
+    height: 331.5px;
+    border: 1px solid #909090;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 div {
+    position: relative;
+    overflow: hidden;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 div span {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 .first-row {
+    width: 100%;
+    height: 145px;
+    display: flex;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 .first-row .col-1 {
+    width: 81px;
+    height: 100%;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 .first-row .col-1>div {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #909090;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 .first-row .col-2 {
+    width: 81px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #909090;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 .first-row .col-3 {
+    width: 161px;
+    height: 100%;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 .first-row .col-3 .row-1 {
+    width: 100%;
+    height: 61px;
+    display: flex;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 .first-row .col-3 .row-1>div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #909090;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 .first-row .col-3 .row-2 {
+    width: 100%;
+    height: 85px;
+    display: flex;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 .first-row .col-3 .row-2>div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #909090;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 .first-row .col-4 {
+    width: calc(100% - 323px);
+    height: 100%;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 .first-row .col-4 .row-1 {
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #909090;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 .first-row .col-4 .row-2 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 .first-row .col-4 .row-2>div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #909090;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 .second-row {
+    width: 100%;
+    height: calc(100% - 145px);
+    display: flex;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 .second-row .col-1 {
+    width: 112px;
+    height: 100%;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 .second-row .col-1 .row-1 {
+    width: 100%;
+    height: 56px;
+    display: flex;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 .second-row .col-1 .row-1>div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #909090;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 .second-row .col-1 .row-2,
+.create-collage .preview-collage .preview-collage-box .landscap-size24 .second-row .col-1 .row-3 {
+    width: 100%;
+    height: 64.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #909090;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 .second-row .col-2 {
+    width: calc(100% - 112px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size24 .second-row .col-2>div {
+    width: 64.5px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #909090;
+}

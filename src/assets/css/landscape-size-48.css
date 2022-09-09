@@ -1,0 +1,93 @@
+.create-collage .preview-collage .preview-collage-box .landscap-size48 {
+    width: 437px;
+    height: 309px;
+    border: 1px solid #909090;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size48 div {
+    /* width: 54.3px;
+    height: 77px; */
+    position: relative;
+    overflow: hidden;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size48 div span {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size48 div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size48>div {
+    width: 100%;
+    display: flex;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size48 .first-row,
+.create-collage .preview-collage .preview-collage-box .landscap-size48 .third-row {
+    height: 98.8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size48 .first-row>div,
+.create-collage .preview-collage .preview-collage-box .landscap-size48 .third-row>div {
+    width: 43.5px;
+    height: 49.8px;
+    border: 1px solid #909090;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size48 .second-row {
+    height: 109px;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size48 .second-row .col-1 {
+    width: 146px;
+    height: 100%;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size48 .second-row .col-1>div {
+    width: 100%;
+    height: 50%;
+    border: 1px solid #909090;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size48 .second-row .col-2,
+.create-collage .preview-collage .preview-collage-box .landscap-size48 .second-row .col-3 {
+    width: 72px;
+    height: 100%;
+    border: 1px solid #909090;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size48 .second-row .col-4,
+.create-collage .preview-collage .preview-collage-box .landscap-size48 .second-row .col-5 {
+    width: 73px;
+    height: 100%;
+}
+
+.create-collage .preview-collage .preview-collage-box .landscap-size48 .second-row .col-4>div,
+.create-collage .preview-collage .preview-collage-box .landscap-size48 .second-row .col-5>div {
+    width: 100%;
+    height: 50%;
+    border: 1px solid #909090;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

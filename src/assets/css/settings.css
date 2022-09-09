@@ -1,0 +1,786 @@
+.settings {
+    width: 100%;
+    position: relative;
+}
+
+.settings>div {
+    margin-bottom: 40px;
+}
+
+.settings .title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #161A1E;
+    margin-bottom: 16px;
+}
+
+.settings .plan {
+    width: 100%;
+}
+
+.settings .plan .flex-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings .plan .flex-row>div {
+    height: 191px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.settings .plan .subscription {
+    width: 68%;
+    padding: 27px;
+}
+
+.settings .plan .upgrade {
+    width: 30%;
+    padding: 24px;
+    text-align: center;
+}
+
+.settings .plan .flex-row>div h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #645A7A;
+    text-align: left;
+}
+
+.settings .subscription .price {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings .subscription .price p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #363636;
+}
+
+.settings .subscription .price p span {
+    color: #909090;
+    font-weight: 400;
+}
+
+.settings .subscription .total {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0;
+}
+
+.settings .subscription .total>div {
+    width: 47%;
+}
+
+.settings .subscription .total>div p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #161A1E;
+    margin-bottom: 8px;
+}
+
+.settings .subscription .total .range {
+    width: 100%;
+    height: 8px;
+    background-color: #F1F3F5;
+    position: relative;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.settings .subscription .total .range span {
+    height: 100%;
+    background-color: #978DAD;
+    position: absolute;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.settings .subscription .next-invoice-date {
+    font-size: 14px;
+    font-weight: 400;
+    color: #636363;
+}
+
+.settings .subscription .next-invoice-date span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #161A1E;
+}
+
+.settings .upgrade p {
+    font-size: 14px;
+    color: #636363;
+    margin: 16px 0 24px 0;
+    text-align: left;
+}
+
+.settings .upgrade button {
+    width: 177px;
+    height: 38px;
+    font-size: 16px;
+    background-color: #7D7098;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.settings .auto-renew {
+    width: 100%;
+}
+
+.settings .auto-renew .flex-row {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Custom Checkbox Switch */
+
+.settings .auto-renew .flex-row .switch {
+    position: relative;
+    bottom: 7px;
+    display: inline-block;
+    width: 39px;
+    height: 24px;
+}
+
+.settings .auto-renew .flex-row .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.settings .auto-renew .flex-row .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #B8C1CC;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.settings .auto-renew .flex-row .slider:before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.settings .auto-renew .flex-row input:checked+.slider {
+    background-color: #7D7098;
+}
+
+.settings .auto-renew .flex-row input:focus+.slider {
+    box-shadow: 0 0 1px #7D7098;
+}
+
+.settings .auto-renew .flex-row input:checked+.slider:before {
+    transform: translateX(13px);
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    -moz-transform: translateX(13px);
+    -o-transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.settings .auto-renew .flex-row .slider.round {
+    border-radius: 34px;
+}
+
+.settings .auto-renew .flex-row .slider.round:before {
+    border-radius: 50%;
+}
+
+/* End Custom Checkbox Switch */
+
+.settings .auto-renew p.auto-renew-msg {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    color: #636363;
+}
+
+.settings .payment-method {
+    width: 720px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.settings .payment-method p.title {
+    width: 100%;
+}
+
+.settings .payment-method>div {
+    width: 220px;
+    height: 100px;
+    padding: 16px;
+    margin-right: 20px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E6EA;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.settings .payment-method .card {
+    margin-bottom: 20px;
+}
+
+.settings .payment-method .card.selected {
+    border: 1px solid #978DAD;
+}
+
+.settings .payment-method .card>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings .payment-method .card .card-name p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #363636;
+}
+
+.settings .payment-method .card .card-name span {
+    font-size: 14px;
+    color: #636363;
+}
+
+.settings .payment-method .card .card-number {
+    margin-top: 9px;
+}
+
+.settings .payment-method .card .card-number .img img {
+    margin-right: 5px;
+}
+
+.settings .payment-method .card .card-number .img p {
+    display: inline-block;
+    font-size: 14px;
+    color: #636363;
+    position: relative;
+    bottom: 5px;
+}
+
+.settings .payment-method .card .card-number .img p span {
+    position: relative;
+    top: 3px;
+}
+
+/* Start Deopdown */
+.settings .payment-method .card .card-number .tools {
+    width: 100%;
+    display: flex;
+    position: relative;
+    bottom: 10px;
+    margin-top: 24px;
+}
+
+.settings .payment-method .card .card-number .tools .head {
+    width: 100%;
+    font-size: 14px;
+    color: #909090;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings .payment-method .card .card-number .tools .head img {
+    cursor: pointer;
+}
+
+.settings .payment-method .card .card-number .tools .dropdown {
+    width: 132px;
+    max-height: 120px;
+    display: none;
+    padding: 12px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    z-index: 999;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.settings .payment-method .card .card-number .tools .dropdown button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: #7D7098;
+    border: none;
+    border-bottom: 1px solid #E2E6EA;
+    outline: none;
+    background: none;
+}
+
+.settings .payment-method .card .card-number .tools .dropdown button:first-of-type {
+    padding-top: 0;
+}
+
+.settings .payment-method .card .card-number .tools .dropdown button:last-of-type {
+    border-bottom: none;
+    color: #DC3545;
+}
+
+.settings .payment-method .add-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings .payment-history {
+    width: 710px;
+}
+
+.settings .payment-history table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.settings .payment-history table thead {
+    width: 100%;
+    height: 40px;
+    background-color: #F2F1F5;
+}
+
+.settings .payment-history table thead tr {
+    height: 40px;
+}
+
+.settings .payment-history table thead th {
+    height: 40px;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #202020;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.settings .payment-history table thead th:first-child {
+    border-top-left-radius: 5px;
+}
+
+.settings .payment-history table thead th:last-child {
+    border-top-right-radius: 5px;
+}
+
+.settings .payment-history table thead th img {
+    margin-left: 10px;
+}
+
+.settings .payment-history table tbody {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.settings .payment-history table tbody td {
+    height: 56px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #363636;
+    padding-left: 20px;
+}
+
+.settings .payment-history table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 5px;
+}
+
+.settings .payment-history table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 5px;
+}
+
+.settings .model-container#upgradPlanModel {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(54, 54, 54, 25%);
+}
+
+.settings .model-container#upgradPlanModel .model-box {
+    width: 482px;
+    min-height: 457px;
+    padding: 32px 56px 24px 56px;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.settings .model-container#upgradPlanModel .model-box .model-title {
+    margin-bottom: 24px;
+}
+
+.settings .model-container#upgradPlanModel .model-box .model-description {
+    font-size: 14px;
+    font-weight: 400;
+    color: #636363;
+    margin-bottom: 40px;
+}
+
+.settings .model-container#upgradPlanModel .model-box .extra-plan-fees {
+    width: 100%;
+}
+
+.settings .model-container#upgradPlanModel .model-box .extra-plan-fees .select-fees {
+    width: 100%;
+    padding: 16px;
+    background-color: #F9FAFB;
+    margin-bottom: 32px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.settings .model-container#upgradPlanModel .model-box .extra-plan-fees .select-fees p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #363636;
+    margin-bottom: 10px;
+    position: relative;
+    left: 27px;
+    bottom: 5px;
+}
+
+.settings .model-container#upgradPlanModel .model-box .extra-plan-fees .select-fees h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #363636;
+    text-align: right;
+}
+
+.settings .model-container#upgradPlanModel .model-box .extra-plan-fees .select-fees label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #645A7A;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.settings .model-container#upgradPlanModel .model-box .extra-plan-fees .select-fees input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.settings .model-container#upgradPlanModel .model-box .extra-plan-fees .select-fees .checkmark {
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    height: 14px;
+    width: 14px;
+    background-color: #fff;
+    border: 1px solid #E2E6EA;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+/* On mouse-over, add a grey background color */
+.settings .model-container#upgradPlanModel .model-box .extra-plan-fees .select-fees label:hover input~.checkmark {
+    background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.settings .model-container#upgradPlanModel .model-box .extra-plan-fees .select-fees label input:checked~.checkmark {
+    background-color: #7D7098;
+    border: none;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.settings .model-container#upgradPlanModel .model-box .extra-plan-fees .select-fees label .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.settings .model-container#upgradPlanModel .model-box .extra-plan-fees .select-fees label input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.settings .model-container#upgradPlanModel .model-box .extra-plan-fees .select-fees label .checkmark:after {
+    left: 5px;
+    top: 3px;
+    width: 2px;
+    height: 6px;
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.settings .model-container#upgradPlanModel .model-box button {
+    height: 38px;
+}
+
+/*//////////////////////////////////////////*/
+
+.settings #addPaymentInfo {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(54, 54, 54, 25%);
+}
+
+.settings #addPaymentInfo .model-box {
+    width: 482px;
+    min-height: 400px;
+    padding: 32px 56px 24px 56px;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.settings #addPaymentInfo .model-box .model-title {
+    margin-bottom: 24px;
+}
+
+.settings #addPaymentInfo .model-box .input-group {
+    width: 100%;
+}
+
+.settings #addPaymentInfo .model-box .input-group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #909090;
+    margin-bottom: 8px;
+}
+
+.settings #addPaymentInfo .model-box .input-group input {
+    width: 100%;
+    height: 38px;
+    margin-bottom: 16px;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.settings #addPaymentInfo .model-box .input-group {
+    width: 100%;
+}
+
+.settings #addPaymentInfo .model-box .input-group.col-6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings #addPaymentInfo .model-box .input-group .test-input {
+    width: 100%;
+    height: 38px;
+    background-color: #FFFFFF;
+    display: block;
+    padding-top: 10px;
+    padding-left: 5px;
+    margin-bottom: 16px;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.settings #addPaymentInfo .model-box .input-group div {
+    width: 100%;
+}
+
+.settings #addPaymentInfo .model-box .input-group .expiry-date,
+.settings #addPaymentInfo .model-box .input-group .cvv {
+    width: 48%;
+}
+
+.settings #addPaymentInfo .model-box .agree-save-payment-info {
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.settings #addPaymentInfo .model-box .agree-save-payment-info label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #363636;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.settings #addPaymentInfo .model-box .agree-save-payment-info input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.settings #addPaymentInfo .model-box .agree-save-payment-info .checkmark {
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    height: 14px;
+    width: 14px;
+    background-color: #fff;
+    border: 1px solid #E2E6EA;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+/* On mouse-over, add a grey background color */
+.settings #addPaymentInfo .model-box .agree-save-payment-info label:hover input~.checkmark {
+    background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.settings #addPaymentInfo .model-box .agree-save-payment-info label input:checked~.checkmark {
+    background-color: #7D7098;
+    border: none;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.settings #addPaymentInfo .model-box .agree-save-payment-info label .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.settings #addPaymentInfo .model-box .agree-save-payment-info label input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.settings #addPaymentInfo .model-box .agree-save-payment-info label .checkmark:after {
+    left: 5px;
+    top: 3px;
+    width: 2px;
+    height: 6px;
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.settings #addPaymentInfo .model-box button {
+    height: 38px;
+}
+
+.settings #addPaymentInfo .model-box button#loadingBtn,
+.settings #upgradPlanModel .model-box button#loadingBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings #addPaymentInfo .model-box button#loadingBtn:disabled,
+.settings #upgradPlanModel .model-box button#loadingBtn:disabled {
+    background-color: #E2E6EA;
+    color: #8D9BAD;
+    cursor: wait;
+}
+
+.settings #addPaymentInfo .model-box button#loadingBtn img,
+.settings #upgradPlanModel .model-box button#loadingBtn img {
+    display: none;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.settings #addPaymentInfo .model-box button#loadingBtn:disabled img,
+.settings #upgradPlanModel .model-box button#loadingBtn:disabled img {
+    display: inline-block;
+}

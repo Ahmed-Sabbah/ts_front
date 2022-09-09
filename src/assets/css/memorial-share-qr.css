@@ -1,0 +1,145 @@
+#memorialShare {
+    width: 100%;
+    margin-top: 16px;
+}
+
+#memorialShare h2.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #161A1E;
+    margin-bottom: 8px;
+}
+
+#memorialShare p.choose-option {
+    font-size: 14px;
+    font-weight: 500;
+    color: #636363;
+}
+
+#memorialShare .share-options {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 32px;
+}
+
+#memorialShare .share-options .choices {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 16px;
+}
+
+#memorialShare .share-options .choices button {
+    width: 100%;
+    height: 50px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    color: #636363;
+    margin-bottom: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#memorialShare .share-options .choices button.active {
+    font-weight: bold;
+    color: #7D7098;
+}
+
+#memorialShare .share-options .selected-choice {
+    width: 370px;
+    height: 100%;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#memorialShare .share-options .selected-choice h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #7D7098;
+}
+
+#memorialShare .share-options .selected-choice p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #636363;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+#memorialShare .share-options .selected-choice form {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+#memorialShare .share-options .selected-choice .form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+#memorialShare .share-options .selected-choice .form-group label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #909090;
+}
+
+#memorialShare .share-options .selected-choice .form-group input {
+    width: 100%;
+    height: 38px;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#memorialShare .share-options .selected-choice .form-group textarea {
+    width: 100%;
+    height: 140px;
+    padding: 8px;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#memorialShare .share-options .selected-choice .form-group textarea::-webkit-resizer {
+    display: none;
+}
+
+#memorialShare .share-options .selected-choice .form-group button {
+    width: 128px;
+    height: 38px;
+    background-color: #7D7098;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    right: 0;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}

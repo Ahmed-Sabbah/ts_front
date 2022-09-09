@@ -1,0 +1,622 @@
+body {
+    background-image: url('../images/auth/auth-galley.svg');
+    background-repeat: no-repeat;
+    background-size: unset;
+    background-position: top -58px right -70px;
+    overflow: auto;
+}
+
+body::-webkit-scrollbar {
+    width: 3px;
+    height: 150px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #7D7098;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.auth-container {
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.auth-container section {
+    width: 100%;
+    height: 100%;
+}
+
+.auth-container .auth-form {
+    background-color: #F9FAFB;
+    padding-top: 32px;
+    padding-bottom: 50px;
+    padding-left: 135px;
+}
+
+.auth-container .auth-form .logo {
+    margin-bottom: 32px;
+}
+
+.auth-container .auth-form h2 {
+    font-size: 30px;
+    color: #0B0D0F;
+    margin-bottom: 16px;
+}
+
+.auth-container .auth-form p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #636363;
+}
+
+.auth-container .auth-form form {
+    margin-top: 56px;
+}
+
+.auth-container .auth-form form .form-group {
+    margin-top: 16px;
+}
+
+.auth-container .auth-form form .form-group .password-input {
+    width: 370px;
+    position: relative;
+    display: flex;
+}
+
+.auth-container .auth-form form .form-group .password-input img {
+    display: block;
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    top: 15px;
+    left: 330px;
+    cursor: pointer;
+}
+
+.auth-container .auth-form form .form-group .password-input img.eye-hide {
+    display: none;
+}
+
+.auth-container .auth-form form input[type="text"],
+.auth-container .auth-form form input[type="email"],
+.auth-container .auth-form form input[type="password"] {
+    display: block;
+    width: 370px;
+    height: 38px;
+    margin-top: 8px;
+    padding: 0 10px;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.auth-container .auth-form form label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #909090;
+}
+
+.auth-container .auth-form form .terms-conditions {
+    width: 370px;
+    margin: 16px 0 40px 0;
+}
+
+.auth-container .auth-form form .terms-conditions label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #363636;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.auth-container .auth-form form input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.auth-container .auth-form form .terms-conditions label .checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 14px;
+    width: 14px;
+    background-color: #fff;
+    border: 1px solid #E2E6EA;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+/* On mouse-over, add a grey background color */
+.auth-container .auth-form form .terms-conditions label:hover input~.checkmark {
+    background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.auth-container .auth-form form .terms-conditions label input:checked~.checkmark {
+    background-color: #7D7098;
+    border: none;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.auth-container .auth-form form .terms-conditions label .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.auth-container .auth-form form .terms-conditions label input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.auth-container .auth-form form .terms-conditions label .checkmark:after {
+    left: 5px;
+    top: 3px;
+    width: 2px;
+    height: 6px;
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.auth-container .auth-form form .terms-conditions label a {
+    color: #645A7A;
+    margin-left: 6px;
+}
+
+.auth-container .auth-form form button[type="submit"] {
+    width: 370px;
+    height: 42px;
+    background-color: #7D7098;
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.auth-container .auth-form form .direct {
+    width: 370px;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.auth-container .auth-form form .direct p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #363636;
+}
+
+.auth-container .auth-form form .direct p a {
+    color: #645A7A;
+}
+
+.auth-container .auth-form form .choose-login {
+    width: 370px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.auth-container .auth-form form .choose-login label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #363636;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.auth-container .auth-form form .choose-login label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.auth-container .auth-form form .choose-login label .checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 14px;
+    width: 14px;
+    background-color: #fff;
+    border: 1px solid #E2E6EA;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.auth-container .auth-form form .choose-login label:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.auth-container .auth-form form .choose-login label input:checked~.checkmark {
+    background-color: #7D7098;
+    border: none;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.auth-container .auth-form form .choose-login label .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.auth-container .auth-form form .choose-login label input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.auth-container .auth-form form .choose-login label .checkmark:after {
+    top: 4px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.auth-container .auth-form #contributorSignUp {
+    display: none;
+}
+
+.auth-container .auth-form form .forgot-password-direct {
+    width: 370px;
+    margin: 16px 0 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auth-container .auth-form form .forgot-password-direct label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #363636;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+/* Create a custom checkbox */
+.auth-container .auth-form form .forgot-password-direct label .checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 14px;
+    width: 14px;
+    background-color: #fff;
+    border: 1px solid #E2E6EA;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+/* On mouse-over, add a grey background color */
+.auth-container .auth-form form .forgot-password-direct label:hover input~.checkmark {
+    background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.auth-container .auth-form form .forgot-password-direct label input:checked~.checkmark {
+    background-color: #7D7098;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.auth-container .auth-form form .forgot-password-direct label .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.auth-container .auth-form form .forgot-password-direct label input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.auth-container .auth-form form .forgot-password-direct label .checkmark:after {
+    left: 4px;
+    top: 2px;
+    width: 2px;
+    height: 6px;
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.auth-container .auth-form form .forgot-password-direct a {
+    float: right;
+    font-size: 14px;
+    font-weight: 500;
+    color: #645A7A;
+}
+
+.auth-container .auth-form .sign-up-verification {
+    margin-top: 131px;
+}
+
+.auth-container .auth-form .sign-up-verification h2 {
+    margin-bottom: 40px;
+}
+
+.auth-container .auth-form .sign-up-verification p {
+    width: 420px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #363636;
+}
+
+.auth-container .auth-form .sign-up-verification p.not-receive {
+    width: 370px;
+    margin-top: 88px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.auth-container .auth-form .sign-up-verification button {
+    width: 370px;
+    height: 42px;
+    background-color: #7D7098;
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.auth-container .auth-form .sign-up-verification-successful {
+    margin-top: 131px;
+}
+
+.auth-container .auth-form .sign-up-verification-successful p {
+    margin: 24px 0 40px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.auth-container .auth-form .sign-up-verification-successful button {
+    width: 370px;
+    height: 42px;
+    background-color: #7D7098;
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.auth-container .auth-form .sign-up-verification-successful button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.auth-container .auth-form .reset-password-msg {
+    width: 440px;
+    font-size: 16px;
+    color: #636363;
+}
+
+.auth-container .auth-form .reset-new-password-successful {
+    margin-top: 131px;
+}
+
+.auth-container .auth-form .reset-new-password-successful h2 {
+    margin-bottom: 56px;
+}
+
+.auth-container .auth-form .reset-new-password-successful button {
+    width: 370px;
+    height: 42px;
+    background-color: #7D7098;
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.auth-container .auth-form .reset-new-password-successful button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.auth-container .auth-form form button#loadingBtn,
+.auth-container .sign-up-verification button#loadingBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-container .auth-form form button#loadingBtn:disabled,
+.auth-container .sign-up-verification button#loadingBtn:disabled {
+    background-color: #E2E6EA;
+    color: #8D9BAD;
+    cursor: wait;
+}
+
+.auth-container .auth-form form button#loadingBtn img,
+.auth-container .sign-up-verification button#loadingBtn img {
+    display: none;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.auth-container .auth-form form button#loadingBtn:disabled img,
+.auth-container .sign-up-verification button#loadingBtn:disabled img {
+    display: inline-block;
+}
+
+.auth-container .auth-gallery {
+    padding: 0 56px;
+    padding-bottom: 27px;
+}
+
+.auth-container .auth-gallery .msg p {
+    margin-top: 146px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+    color: #645A7A;
+}
+
+.auth-container .auth-gallery .msg h2 {
+    margin-top: 8px;
+    width: 100%;
+    font-size: 34px;
+    font-weight: bold;
+    color: #645A7A;
+}
+
+.auth-container .auth-gallery .gallery {
+    width: 100%;
+    height: 491px;
+    /* max-height: 500px; */
+    /* display: grid;
+    grid-template-columns: repeat(12, auto);
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "img1 img1 img1 img1 img2 img2 img2 img2 img2 img2 img2 img2"
+        "img1 img1 img1 img1 img3 img3 img3 img3 img4 img4 img4 img4";
+    column-gap: 10px;
+    row-gap: 5px; */
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth-container .auth-gallery .gallery img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.auth-container .auth-gallery .gallery .left-side {
+    width: 38%;
+    height: 100%;
+}
+
+.auth-container .auth-gallery .gallery .rigth-side {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.auth-container .auth-gallery .gallery .left-side img {
+    width: 100%;
+    height: 100%;
+}
+
+.auth-container .auth-gallery .gallery .rigth-side>div {
+    width: 100%;
+}
+
+.auth-container .auth-gallery .gallery .rigth-side div:first-of-type {
+    height: 199px;
+}
+
+.auth-container .auth-gallery .gallery .rigth-side div:first-of-type img {
+    width: 100%;
+    height: 100%;
+}
+
+.auth-container .auth-gallery .gallery .rigth-side div:last-of-type {
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth-container .auth-gallery .gallery .rigth-side div:last-of-type img {
+    width: 49%;
+    height: 100%;
+}
+
+/* .auth-container .auth-gallery .gallery img.item1 {
+    width: 35%;
+    height: 491px;
+    grid-area: img1;
+}
+
+.auth-container .auth-gallery .gallery img.item2 {
+    width: 65%;
+    height: 199px;
+    grid-area: img2;
+}
+
+.auth-container .auth-gallery .gallery img.item3 {
+    width: 100%;
+    height: 280px;
+    grid-area: img3;
+}
+
+.auth-container .auth-gallery .gallery img.item4 {
+    width: 100%;
+    height: 280px;
+    grid-area: img4;
+} */

@@ -1,0 +1,12 @@
+/* Webfont: SmithAllison */@font-face {
+    font-family: 'SmithAllison';
+    src: url('SmithAllison.eot'); /* IE9 Compat Modes */
+    src: url('SmithAllison.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('SmithAllison.woff') format('woff'), /* Modern Browsers */
+         url('SmithAllison.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('SmithAllison.svg#SmithAllison') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

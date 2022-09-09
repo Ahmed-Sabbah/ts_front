@@ -1,0 +1,7 @@
+<svg id="Payment_Methods" data-name="Payment Methods" xmlns="http://www.w3.org/2000/svg" width="36" height="24" viewBox="0 0 36 24">
+  <rect id="Rectangle_308" data-name="Rectangle 308" width="36" height="24" rx="4" fill="#e2e6ea"/>
+  <g id="Mastercard" transform="translate(9 3.708)">
+    <circle id="Ellipse_200" data-name="Ellipse 200" cx="5.5" cy="5.5" r="5.5" transform="translate(7 3.292)" fill="#f79e1b"/>
+    <circle id="Ellipse_199" data-name="Ellipse 199" cx="5.5" cy="5.5" r="5.5" transform="translate(0 3.292)" fill="#eb221b"/>
+  </g>
+</svg>

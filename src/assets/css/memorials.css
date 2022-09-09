@@ -1,0 +1,1756 @@
+.memorials {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+}
+
+.memorials .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #161A1E;
+    margin-bottom: 24px;
+}
+
+.memorials .memorials-status {
+    display: flex;
+    align-items: center;
+    width: 227px;
+    height: 42px;
+    margin-bottom: 16px;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+.memorials .memorials-status span {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #B8C1CC;
+    cursor: pointer;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+.memorials .memorials-status span.active {
+    width: 118px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #7D7098;
+}
+
+.memorials .items {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.memorials .items .item {
+    width: 350px;
+    height: 220px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 24px;
+    padding: 4px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.memorials .items .item .header-image {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.memorials .items .item .info {
+    padding: 16px 10px;
+}
+
+.memorials .items .item .info h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #202020;
+    margin-bottom: 8px;
+}
+
+.memorials .items .item .info .flex-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.memorials .items .item .info .flex-row span {
+    font-size: 13px;
+    font-weight: 400;
+    color: #909090;
+}
+
+.memorials .items .item .info {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.memorials .items .item .info h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #202020;
+    margin-bottom: 8px;
+}
+
+/* Start Deopdown */
+.memorials .items .item .info .tools {
+    display: block;
+    position: relative;
+}
+
+.memorials .items .item .info .tools .head {
+    font-size: 14px;
+    color: #909090;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.memorials .items .item .info .tools .head img {
+    cursor: pointer;
+}
+
+.memorials .items .item .info .tools .dropdown {
+    width: 132px;
+    height: 104px;
+    display: none;
+    padding: 12px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 17px;
+    right: 0;
+    z-index: 999;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.memorials .items .item .info .tools .dropdown button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: #7D7098;
+    border: none;
+    border-bottom: 1px solid #E2E6EA;
+    outline: none;
+    background: none;
+}
+
+.memorials .items .item .info .tools .dropdown button:first-of-type {
+    padding-top: 0;
+}
+
+.memorials .items .item .info .tools .dropdown button:last-of-type {
+    border-bottom: none;
+}
+
+.memorials .items .item .info .tools .dropdown button img {
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.memorials .items .unlock-memorial {
+    width: 350px;
+    height: 220px;
+    margin-right: 20px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    position: relative;
+    border: 1px dashed #978DAD;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.memorials .items .unlock-memorial h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #202020;
+    margin-bottom: 27px;
+}
+
+.memorials .items .unlock-memorial .price {
+    width: 100%;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.memorials .items .unlock-memorial .price p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #636363;
+}
+
+.memorials .items .unlock-memorial .price span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #645A7A;
+}
+
+.memorials .items .unlock-memorial button {
+    width: 99px;
+    height: 38px;
+    background-color: #7D7098;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    bottom: -19px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.memorials .items .unlocked-memorial {
+    width: 350px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    position: relative;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.memorials .items .unlocked-memorial img {
+    width: 60px;
+    height: 60px;
+}
+
+
+.memorials .model-container#sendToPrinter {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(54, 54, 54, 25%);
+}
+
+.memorials .model-container#sendToPrinter .model-box {
+    width: 482px;
+    min-height: 497px;
+    padding: 32px 56px 24px 56px;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.memorials .model-container#sendToPrinter .model-box .model-title {
+    margin-bottom: 48px;
+}
+
+.memorials .model-container#sendToPrinter .model-box p.note {
+    font-size: 14px;
+    font-weight: 400;
+    color: #636363;
+    margin-bottom: 24px;
+}
+
+.memorials .model-container#sendToPrinter .model-box .input-group {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.memorials .model-container#sendToPrinter .model-box .input-group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #909090;
+    margin-bottom: 8px;
+}
+
+.memorials .model-container#sendToPrinter .model-box .input-group input {
+    width: 100%;
+    height: 38px;
+    resize: none;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.memorials .model-container#sendToPrinter .model-box .input-group textarea {
+    width: 100%;
+    height: 118px;
+    padding: 8px;
+    resize: none;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.memorials .model-container#archiveMediaConfirm {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(54, 54, 54, 25%);
+}
+
+.memorials .model-container#archiveMediaConfirm .model-box {
+    width: 482px;
+    height: 219px;
+    padding: 32px 56px 24px 56px;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.memorials .model-container#archiveMediaConfirm .model-box .model-title {
+    margin-bottom: 48px;
+}
+
+.memorials .model-container#archiveMediaConfirm .model-box p {
+    margin-bottom: 32px;
+}
+
+.memorials .model-container#buyMemorial {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(54, 54, 54, 25%);
+}
+
+.memorials .model-container#buyMemorial .model-box {
+    width: 482px;
+    min-height: 415px;
+    padding: 32px 56px 24px 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.memorials .model-container#buyMemorial .model-box .model-title {
+    margin-bottom: 32px;
+}
+
+.memorials .model-container#buyMemorial .model-box p {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.memorials .model-container#buyMemorial .model-box .input-group {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.memorials .model-container#buyMemorial .model-box .input-group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #909090;
+    margin-bottom: 8px;
+}
+
+.memorials .model-container#buyMemorial .model-box .input-group input {
+    width: 100%;
+    height: 38px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #636363;
+    counter-set: unset;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.memorials .model-container#buyMemorial .model-box .total {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.memorials .model-container#buyMemorial .model-box .total span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #636363;
+    margin-bottom: 8px;
+}
+
+.memorials .model-container#buyMemorial .model-box .total h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #7D7098;
+}
+
+/*//////////////////////////////////////////*/
+
+.memorials #addPaymentInfo {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(54, 54, 54, 25%);
+}
+
+.memorials #addPaymentInfo .model-box {
+    width: 482px;
+    min-height: 400px;
+    padding: 32px 56px 24px 56px;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.memorials #addPaymentInfo .model-box .model-title {
+    margin-bottom: 24px;
+}
+
+.memorials #addPaymentInfo .model-box .input-group {
+    width: 100%;
+}
+
+.memorials #addPaymentInfo .model-box .input-group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #909090;
+    margin-bottom: 8px;
+}
+
+.memorials #addPaymentInfo .model-box .input-group input {
+    width: 100%;
+    height: 38px;
+    margin-bottom: 16px;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.memorials #addPaymentInfo .model-box .input-group {
+    width: 100%;
+}
+
+.memorials #addPaymentInfo .model-box .input-group.col-6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.memorials #addPaymentInfo .model-box .input-group .test-input {
+    width: 100%;
+    height: 38px;
+    background-color: #FFFFFF;
+    display: block;
+    padding-top: 10px;
+    padding-left: 5px;
+    margin-bottom: 16px;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.memorials #addPaymentInfo .model-box .input-group div {
+    width: 100%;
+}
+
+.memorials #addPaymentInfo .model-box .input-group .expiry-date,
+.memorials #addPaymentInfo .model-box .input-group .cvv {
+    width: 48%;
+}
+
+.memorials #addPaymentInfo .model-box .agree-save-payment-info {
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.memorials #addPaymentInfo .model-box .agree-save-payment-info label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #363636;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.memorials #addPaymentInfo .model-box .agree-save-payment-info input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.memorials #addPaymentInfo .model-box .agree-save-payment-info .checkmark {
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    height: 14px;
+    width: 14px;
+    background-color: #fff;
+    border: 1px solid #E2E6EA;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+/* On mouse-over, add a grey background color */
+.memorials #addPaymentInfo .model-box .agree-save-payment-info label:hover input~.checkmark {
+    background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.memorials #addPaymentInfo .model-box .agree-save-payment-info label input:checked~.checkmark {
+    background-color: #7D7098;
+    border: none;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.memorials #addPaymentInfo .model-box .agree-save-payment-info label .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.memorials #addPaymentInfo .model-box .agree-save-payment-info label input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.memorials #addPaymentInfo .model-box .agree-save-payment-info label .checkmark:after {
+    left: 5px;
+    top: 3px;
+    width: 2px;
+    height: 6px;
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.memorials #addPaymentInfo .model-box button {
+    height: 38px;
+}
+
+.memorials #addPaymentInfo .model-box button#loadingBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.memorials #addPaymentInfo .model-box button#loadingBtn:disabled {
+    background-color: #E2E6EA;
+    color: #8D9BAD;
+    cursor: wait;
+}
+
+.memorials #addPaymentInfo .model-box button#loadingBtn img {
+    display: none;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.memorials #addPaymentInfo .model-box button#loadingBtn:disabled img {
+    display: inline-block;
+}
+
+/*///////////////////////////////////////////////////////////////////////////*/
+
+.show-memorial {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.show-memorial .container {
+    width: calc(100% - 320px);
+    height: 100%;
+    padding: 32px 25px 40px 25px;
+    overflow-y: auto;
+}
+
+.show-memorial .container::-webkit-scrollbar {
+    width: 0;
+    border: 0;
+    display: none;
+}
+
+.show-memorial .container>div {
+    width: 100%;
+}
+
+/* .show-memorial .container > div {
+    width: calc(100% - 320px);
+    height: 100%;
+} */
+
+.show-memorial .container .back-link {
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 500;
+    color: #7D7098;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.show-memorial .container .back-link img {
+    margin-right: 10px;
+}
+
+.show-memorial .container .memorial-tools {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.show-memorial .container .memorial-tools .memorial-nav {
+    width: 433px;
+    height: 42px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+.show-memorial .container .memorial-tools .memorial-nav li {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #B8C1CC;
+    cursor: pointer;
+}
+
+.show-memorial .container .memorial-tools .memorial-nav li.active {
+    color: #7D7098;
+    font-weight: bold;
+}
+
+.show-memorial .container .memorial-tools button {
+    width: 137px;
+    height: 38px;
+    background-color: #7D7098;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.show-memorial .preview-memorial {
+    width: 320px;
+    height: 100%;
+    background-color: #FFFFFF;
+    padding: 25px;
+}
+
+.show-memorial .preview-memorial .selected-memorial {
+    width: 100%;
+    height: 100%;
+}
+
+.show-memorial .preview-memorial .selected-memorial .main-memorial {
+    width: 270px;
+    height: 585px;
+    margin: 0 auto;
+    background-color: #708298;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.show-memorial .preview-memorial .selected-memorial .main-memorial img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.show-memorial .preview-memorial .unselected-memorial {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.show-memorial .preview-memorial .unselected-memorial .empty-selected {
+    width: 270px;
+    height: 232px;
+    margin: 0 auto;
+    background-color: #708298;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.show-memorial .preview-memorial .unselected-memorial .select-msg {
+    font-size: 18px;
+    font-weight: 600;
+    color: #636363;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.show-memorial .container .memorial-info {
+    width: 100%;
+    margin-top: 59px;
+}
+
+.show-memorial .container .memorial-info h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #161A1E;
+    margin-bottom: 8px;
+}
+
+.show-memorial .container .memorial-info span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #636363;
+}
+
+.show-memorial .container .memorial-info p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #363636;
+    margin-top: 24px;
+    line-height: 22px;
+}
+
+.show-memorial .container .memorial-gallery {
+    width: 100%;
+    display: none;
+}
+
+.show-memorial .container .memorial-gallery h2.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #161A1E;
+    margin-top: 48px;
+}
+
+.show-memorial .container .memorial-gallery .media-nav {
+    margin-top: 24px;
+}
+
+.show-memorial .container .memorial-visits {
+    width: 100%;
+    display: none;
+}
+
+.show-memorial .container .memorial-visits .filter {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.show-memorial .container .memorial-visits .filter h2.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #161A1E;
+}
+
+.show-memorial .container .memorial-visits .filter select {
+    width: 160px;
+    height: 38px;
+    border: 2px solid #E2E6EA;
+    font-size: 13px;
+    color: #C6CDD6;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.show-memorial .container .memorial-visits .filter select option {
+    width: 160px;
+    height: 38px;
+    font-size: 13px;
+    color: #C6CDD6;
+}
+
+.show-memorial .container .memorial-visits .visits-items {
+    width: 100%;
+}
+
+.show-memorial .container .memorial-visits .visits-items .item {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.show-memorial .container .memorial-visits .visits-items .item .title {
+    width: 100%;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.show-memorial .container .memorial-visits .visits-items .item .title h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #363636;
+}
+
+.show-memorial .container .memorial-visits .visits-items .item span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #909090;
+}
+
+.show-memorial .container .memorial-visits .visits-items .item p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #636363;
+    margin-top: 24px;
+}
+
+.show-memorial .container .memorial-share {
+    width: 100%;
+    margin-top: 48px;
+    display: none;
+}
+
+.show-memorial .container .memorial-share h2.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #161A1E;
+    margin-bottom: 8px;
+}
+
+.show-memorial .container .memorial-share p.choose-option {
+    font-size: 14px;
+    font-weight: 500;
+    color: #636363;
+}
+
+.show-memorial .container .memorial-share .share-options {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 32px;
+}
+
+.show-memorial .container .memorial-share .share-options .choices {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.show-memorial .container .memorial-share .share-options .choices button {
+    width: 100%;
+    height: 50px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    color: #636363;
+    margin-bottom: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.show-memorial .container .memorial-share .share-options .choices button.active {
+    font-weight: bold;
+    color: #7D7098;
+}
+
+.show-memorial .container .memorial-share .share-options .selected-choice {
+    width: 370px;
+    height: 100%;
+    background-color: #FFFFFF;
+    padding: 15px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.show-memorial .container .memorial-share .share-options .selected-choice h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #7D7098;
+}
+
+.show-memorial .container .memorial-share .share-options .selected-choice p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #636363;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.show-memorial .container .memorial-share .share-options .selected-choice form {
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.show-memorial .container .memorial-share .share-options .selected-choice .form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.show-memorial .container .memorial-share .share-options .selected-choice .form-group label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #909090;
+}
+
+.show-memorial .container .memorial-share .share-options .selected-choice .form-group input {
+    width: 100%;
+    height: 38px;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.show-memorial .container .memorial-share .share-options .selected-choice .form-group textarea {
+    width: 100%;
+    height: 140px;
+    padding: 8px;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.show-memorial .container .memorial-share .share-options .selected-choice .form-group textarea::-webkit-resizer {
+    display: none;
+}
+
+.show-memorial .container .memorial-share .share-options .selected-choice .form-group button {
+    width: 128px;
+    height: 38px;
+    background-color: #7D7098;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    right: 0;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.show-memorial .container .memorial-share .share-options #shareQRCode {
+    display: none;
+}
+
+.show-memorial .container .memorial-share .share-options #shareQRCodeToPrinter {
+    display: none;
+}
+
+.show-memorial .container .memorial-qr-code {
+    width: 100%;
+    margin-top: 48px;
+    display: none;
+}
+
+.show-memorial .container .memorial-qr-code h2.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #161A1E;
+    margin-bottom: 8px;
+}
+
+.show-memorial .container .memorial-qr-code p.scan-msg {
+    width: 325px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #636363;
+    line-height: 22px;
+}
+
+.show-memorial .container .memorial-qr-code .location {
+    width: 382px;
+    margin-top: 32px;
+}
+
+.show-memorial .container .memorial-qr-code .location p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #7D7098;
+    margin-bottom: 16px;
+}
+
+.show-memorial .container .memorial-qr-code .location .location-card {
+    width: 100%;
+    height: 128px;
+    background-color: #FFFFFF;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.show-memorial .container .memorial-qr-code .location .location-card .location-map {
+    width: 141px;
+    height: 120px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.show-memorial .container .memorial-qr-code .location .location-card .location-map img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.show-memorial .container .memorial-qr-code .location .location-map .map {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.show-memorial .container .memorial-qr-code .location .location-card .location-info {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+
+.show-memorial .container .memorial-qr-code .location .location-card .location-info p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #645A7A;
+    margin-bottom: 0;
+}
+
+.show-memorial .container .memorial-qr-code .location .location-card .location-info span {
+    font-size: 13px;
+    font-weight: 400;
+    color: #636363;
+}
+
+.show-memorial .container .memorial-qr-code .location .location-card .location-info a {
+    font-size: 13px;
+    font-weight: 500;
+    color: #7D7098;
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+
+.show-memorial .container .memorial-qr-code .location .location-card .location-info strong {
+    font-size: 12px;
+    font-weight: 500;
+    color: #645A7A;
+}
+
+/* .show-memorial .container .preview-media {
+    width: 320px !important;
+}
+
+.show-memorial .container .memorial-gallery {
+    width: 100%;
+} */
+
+/* .show-memorial .container .memorialInfo,
+.show-memorial .container .memorialGallery,
+.show-memorial .container .memorialVisits,
+.show-memorial .container .showMemorialShare,
+.show-memorial .container .memorialQR {
+    display: flex;
+} */
+
+/* .show-memorial .container .memorialGallery,
+.show-memorial .container .memorialVisits,
+.show-memorial .container .showMemorialShare,
+.show-memorial .container .memorialQR {
+    display: none;
+} */
+
+.create-memorial {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.create-memorial .container {
+    width: calc(100% - 320px);
+    height: 100%;
+    overflow-y: auto;
+}
+
+.create-memorial .container::-webkit-scrollbar {
+    width: 0;
+    border: 0;
+    display: none;
+}
+
+.create-memorial .container .back-link {
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 500;
+    color: #7D7098;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.create-memorial .container .back-link img {
+    margin-right: 10px;
+}
+
+.create-memorial .container .create-memorial-steps {
+    margin-bottom: 48px;
+}
+
+.create-memorial .container .create-memorial-steps p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #161A1E;
+    margin-bottom: 8px;
+}
+
+.create-memorial .container .create-memorial-steps p span {
+    color: #7D7098;
+}
+
+.create-memorial .container .create-memorial-steps .range {
+    width: 370px;
+    height: 8px;
+    background-color: #F1F3F5;
+    position: relative;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.create-memorial .container .create-memorial-steps .range span {
+    height: 100%;
+    background-color: #978DAD;
+    position: absolute;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.create-memorial .container .media-filter {
+    margin-bottom: 40px;
+}
+
+.create-memorial .container .media {
+    height: 381px;
+}
+
+.create-memorial .container .media .files {
+    height: 292px;
+}
+
+.create-memorial .container#step2 .memorial-form {
+    width: 100%;
+}
+
+.create-memorial .container#step2 .memorial-form form {
+    width: 100%;
+}
+
+.create-memorial .container#step2 .memorial-form form label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #909090;
+    margin-bottom: 8px;
+}
+
+.create-memorial .container#step2 .memorial-form form input {
+    height: 38px;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.create-memorial .container#step2 .memorial-form form input[type="text"] {
+    padding-left: 16px;
+}
+
+.create-memorial .container#step2 .memorial-form form input::placeholder {
+    font-size: 13px;
+    font-weight: 500;
+    color: #C6CDD6;
+}
+
+.create-memorial .container#step2 .memorial-form form .col-4 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.create-memorial .container#step2 .memorial-form form .col-4 .input-group {
+    margin-right: 11px;
+}
+
+.create-memorial .container#step2 .memorial-form form .col-4 input[type="text"] {
+    width: 205px;
+}
+
+.create-memorial .container#step2 .memorial-form form .col-4 .age {
+    width: 138px !important;
+    background-color: #E2E6EA;
+}
+
+.create-memorial .container#step2 .memorial-form form .col-4 .name-disabled {
+    background-color: #E2E6EA;
+}
+
+.create-memorial .container#step2 .memorial-form form .about {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.create-memorial .container#step2 .memorial-form form .about textarea {
+    width: 637px;
+    height: 190px;
+    padding: 8px;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E6EA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.create-memorial .container#step2 .memorial-form form .about textarea::-webkit-resizer {
+    display: none;
+}
+
+.create-memorial .container#step2 .memorial-form form .groove-location {
+    width: 100%;
+}
+
+.create-memorial .container#step2 .memorial-form form .groove-location input {
+    width: 313px;
+    margin-right: 11px;
+    margin-bottom: 16px;
+}
+
+.create-memorial .container#step2 {
+    display: none;
+}
+
+.create-memorial .preview-memorial {
+    width: 320px;
+    height: fit-content;
+    background-color: #FFFFFF;
+    padding: 25px;
+    /* overflow: hidden; */
+}
+
+.create-memorial .preview-memorial .selected-memorial-cover {
+    width: 270px;
+    height: 584px;
+    margin: 0 auto;
+    margin-bottom: 38px;
+    background-color: #E2E6EA;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.create-memorial .preview-memorial .selected-memorial-cover img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.create-memorial .preview-memorial .btn-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create-memorial .preview-memorial .btn-group .back-btn {
+    width: 127px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #363636;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #7D7098;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.create-memorial .preview-memorial .btn-group .next-btn {
+    width: 127px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #7D7098;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.create-memorial .preview-memorial .btn-group .next-btn:disabled {
+    width: 127px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #8D9BAD;
+    background-color: #E2E6EA;
+    cursor: not-allowed;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.create-memorial .preview-memorial .btn-group #loadingBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-memorial .preview-memorial .btn-group #loadingBtn.disabled {
+    background-color: #E2E6EA;
+    color: #8D9BAD;
+    cursor: wait;
+}
+
+.create-memorial .preview-memorial .btn-group #loadingBtn img {
+    display: none;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.create-memorial .preview-memorial .btn-group #loadingBtn.disabled img {
+    display: inline-block;
+}
+
+.create-memorial .preview-memorial.step2 {
+    display: none;
+}
+
+.create-memorial .preview-memorial.step2 .selected-memorial-cover {
+    position: relative;
+}
+
+.create-memorial .preview-memorial.step2 .selected-memorial-cover .memorial-info {
+    width: 100%;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    color: rgba(255, 255, 255, 100%);
+    background-color: rgba(32, 32, 32, 40%);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.create-memorial .preview-memorial.step2 .selected-memorial-cover .memorial-info h2 {
+    margin-top: 25px;
+    margin-bottom: 9px;
+    font-size: 20px;
+}
+
+.create-memorial .preview-memorial.step2 .selected-memorial-cover .memorial-info p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.create-memorial .container#step3 {
+    display: none;
+}
+
+.create-memorial .container#step3 .media {
+    height: 321px;
+}
+
+.create-memorial .container#step3 .media .files {
+    height: 231px;
+}
+
+.create-memorial .preview-memorial.step3 {
+    display: none;
+}
+
+.create-memorial .preview-memorial.step3 .selected-memorial-cover {
+    padding: 60px 16px 44px 16px;
+}
+
+.create-memorial .preview-memorial.step3 .selected-memorial-cover .selected-media {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.create-memorial .preview-memorial.step3 .selected-memorial-cover .selected-media::-webkit-scrollbar {
+    width: 0;
+    border: 0;
+    display: none;
+}
+
+.create-memorial .preview-memorial.step3 .selected-memorial-cover .selected-media .item {
+    width: 238px;
+    height: 88px;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.create-memorial .preview-memorial.step3 .selected-memorial-cover .selected-media .item.PHOTO img,
+.create-memorial .preview-memorial.step3 .selected-memorial-cover .selected-media .item.VIDEO video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.create-memorial .preview-memorial.step3 .selected-memorial-cover .selected-media .item.DOCUMENT,
+.create-memorial .preview-memorial.step3 .selected-memorial-cover .selected-media .item.AUDIO {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-memorial .preview-memorial.step3 .selected-memorial-cover .selected-media .item.DOCUMENT img,
+.create-memorial .preview-memorial.step3 .selected-memorial-cover .selected-media .item.AUDIO img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.create-memorial .preview-memorial.step3 .selected-memorial-cover .selected-media .item.VIDEO {
+    position: relative;
+}
+
+.create-memorial .preview-memorial.step3 .selected-memorial-cover .selected-media .item.VIDEO::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/dashboard/media/video-player.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: unset;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.create-memorial#share .container .success-image {
+    margin-left: 199px;
+}
+
+.create-memorial#share .preview-memorial .selected-memorial-cover,
+.show-memorial .preview-memorial.memorial-qr .selected-memorial-cover {
+    width: 270px;
+    height: 584px;
+    position: relative;
+}
+
+.show-memorial .preview-memorial.memorial-qr .selected-memorial-cover img:first-of-type {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.create-memorial#share .preview-memorial .selected-memorial-cover .memorial-info,
+.show-memorial .preview-memorial.memorial-qr .selected-memorial-cover .memorial-info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    color: rgba(255, 255, 255, 100%);
+    background-color: rgba(32, 32, 32, 40%);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.create-memorial#share .preview-memorial .selected-memorial-cover .memorial-info img,
+.show-memorial .preview-memorial.memorial-qr .selected-memorial-cover .memorial-info img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.create-memorial#share .preview-memorial .btn-group {
+    justify-content: center;
+}
+
+.create-memorial#share .preview-memorial .btn-group .view-btn {
+    width: 100%;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #7D7098;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.create-memorial#share .share-options #shareQRCode {
+    display: none;
+}
+
+.create-memorial#share .share-options #shareQRCodeToPrinter {
+    display: none;
+}
+
+.show-memorial .container .memorial-share .share-options #shareQRCode #loadingShareBtn,
+.show-memorial .container .memorial-share .share-options #shareQRCodeToPrinter #loadingPrintBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-memorial .container .memorial-share .share-options #shareQRCode #loadingShareBtn:disabled,
+.show-memorial .container .memorial-share .share-options #shareQRCodeToPrinter #loadingPrintBtn:disabled {
+    background-color: #E2E6EA;
+    color: #8D9BAD;
+    cursor: wait;
+}
+
+.show-memorial .container .memorial-share .share-options #shareQRCode #loadingShareBtn img,
+.show-memorial .container .memorial-share .share-options #shareQRCodeToPrinter #loadingPrintBtn img {
+    display: none;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.show-memorial .container .memorial-share .share-options #shareQRCode #loadingShareBtn:disabled img,
+.show-memorial .container .memorial-share .share-options #shareQRCodeToPrinter #loadingPrintBtn:disabled img {
+    display: inline-block;
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group_7587" data-name="Group 7587" transform="translate(-2649 -4964)">
+    <rect id="Rectangle_1367" data-name="Rectangle 1367" width="20" height="20" transform="translate(2649 4964)" fill="none" opacity="0.998"/>
+    <path id="compass-3" d="M11.547,11.313a.4.4,0,0,1-.234.234l-3.98,1.592a.4.4,0,0,1-.518-.518L8.407,8.64a.4.4,0,0,1,.234-.234l3.98-1.592a.4.4,0,0,1,.518.518l-1.592,3.98ZM9.49,8.926l1.538,1.538L12.053,7.9,9.49,8.926Zm.974,2.1L8.926,9.49,7.9,12.053l2.563-1.025Zm-.487,6.926a7.977,7.977,0,1,1,7.977-7.977A7.977,7.977,0,0,1,9.977,17.953Zm0-.8A7.179,7.179,0,1,0,2.8,9.977,7.179,7.179,0,0,0,9.977,17.156Z" transform="translate(2649 4964)" fill="#b8c1cc" stroke="#b8c1cc" stroke-width="0.2"/>
+  </g>
+</svg>

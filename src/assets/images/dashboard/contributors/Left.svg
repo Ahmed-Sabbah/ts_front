@@ -1,0 +1,18 @@
+<svg id="Left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27.422" height="27.422" viewBox="0 0 27.422 27.422">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M5.027,8.031a.631.631,0,0,1,0,.914.631.631,0,0,1-.914,0L.2,5.027a.631.631,0,0,1,0-.914L4.113.2a.631.631,0,0,1,.914,0,.631.631,0,0,1,0,.914L1.567,4.57Z" fill="#c6cdd6"/>
+    </clipPath>
+  </defs>
+  <g id="_Background" data-name="🎨 Background">
+    <rect id="Background" width="27.422" height="27.422" rx="13.711" fill="#f2f1f5"/>
+  </g>
+  <g id="_Icon" data-name="⭐️ Icon" transform="translate(11.099 9.141)">
+    <path id="Mask-2" data-name="Mask" d="M5.027,8.031a.631.631,0,0,1,0,.914.631.631,0,0,1-.914,0L.2,5.027a.631.631,0,0,1,0-.914L4.113.2a.631.631,0,0,1,.914,0,.631.631,0,0,1,0,.914L1.567,4.57Z" fill="#c6cdd6"/>
+    <g id="Mask_Group_221" data-name="Mask Group 221" clip-path="url(#clip-path)">
+      <g id="Icon_Color" data-name="Icon Color" transform="translate(-5.223 -3.265)">
+        <rect id="_Icon_Color" data-name="🎨 Icon Color" width="15.67" height="15.67" fill="#c6cdd6"/>
+      </g>
+    </g>
+  </g>
+</svg>
